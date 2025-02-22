@@ -1,5 +1,5 @@
 
-# CzechMidi-QoL 12.4.20
+# CzechMidi-QoL
 
 Czech translation of Midi-QoL version 12.4.20
 
