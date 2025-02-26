@@ -57,10 +57,10 @@
   "midi-qol.reallyDelete": "Opravdu chceš tuto položku odstranit?",
   "midi-qol.sure": "Jsi si jistý(á)?",
   "midi-qol.criticals": "kriticky zasahuje",
-  "midi-qol.fumbles": "kriticky mine",
+  "midi-qol.fumbles": "kriticky selže",
   "midi-qol.hits": "zasahuje",
   "midi-qol.hitsEC": "Zásah EC",
-  "midi-qol.misses": "mine",
+  "midi-qol.misses": "selže",
   "midi-qol.save-success": "uspěje",
   "midi-qol.save-failure": "selže",
   "midi-qol.save-drawn": "remíza",
@@ -72,7 +72,7 @@
   "midi-qol.noTemplateSeen": "Šablona nebyla umístěna",
   "midi-qol.AutoTarget.Name": "Automatické cílení šablonou",
   "midi-qol.AutoTarget.Hint": "Po umístění šablony (např. kouzla) automaticky označit tokeny uvnitř šablony. Pokud je nastaveno 'Střed + Úrovně' u cílení na dálku, budou použity objemové šablony úrovní (pokud jsou nainstalovány).",
-  "midi-qol._comment for translators_noDamageonSaveSpells": "Ve Foundry v9 již není element array json podporován, takže bude použita pouze verze v9.",
+  "midi-qol._comment for translators_noDamageOnSaveSpells": "Ve Foundry v9 již není element array json podporován, takže bude použita pouze verze v9.",
   "midi-qol.noDamageonSaveSpells": [
     "Kyselinová koule",
     "Výbuch čepelí",
@@ -93,10 +93,6 @@
     "Zatřes zemí"
   ],
   "midi-qol.noDamageonSaveSpellsv9": "Kyselinová koule, Výbuch čepelí, Zahřmění, Zlomyslný výsměch, Stvoř táborák, Vábnička blesků, Jedovatá sprška, Kordon šípů, Rozklad, Posvátný plamen, Kordon šípů, Omrzliny, Zamoření, Hlas umíráčku, Slovo světla, Katapult, Zatřes zemí",
-  "midi-qol.fullDamageText": "{damageType}",
-  "midi-qol._comment for translators_fullDamage": "Oba níže uvedené texty jsou vyhledávány Midi v popisu kouzla",
-  "midi-qol.fullDamage": "plné zranění při záchranném hodu",
-  "midi-qol.fullDamageAlt": "plné zranění při záchraně",
   "midi-qol.undoDamageFrom": "Vrátit aplikované zranění z ",
   "midi-qol.noGM": "Není připojen žádný PJ, nelze aplikovat efekty/aktualizovat body výdrže",
   "midi-qol.noSelection": "Není vybrán žádný token/aktér",
@@ -123,15 +119,6 @@
   "midi-qol.PlayerSaveTimeout.Hint": "Jak dlouho (v sekundách) čekat, než bude hod na záchranu proveden za hráče.",
   "midi-qol.MagicResistant": "odolání vůči magii",
   "midi-qol.MagicResistanceFeat": "Odolání vůči magii",
-  "midi-qol._comment for translators_halfDamage": "Text níže je vyhledáván Midi v popisu kouzla",
-  "midi-qol.halfDamage": "poloviční zranění při záchraně",
-  "midi-qol._comment for translators_halfDamageAlt": "Text níže je vyhledáván Midi v popisu kouzla",
-  "midi-qol.halfDamageAlt": "poloviční zranění",
-  "midi-qol.halfDamageText": "{damageType}",
-  "midi-qol._comment for translators_noDamage": "Oba texty níže jsou vyhledávány Midi v popisu kouzla",
-  "midi-qol.noDamage": "žádné zranění při záchraně",
-  "midi-qol.noDamageAlt": "žádné zranění",
-  "midi-qol.noDamageText": "{damageType}",
   "midi-qol.PreRollChecks.Name": "Experimentální: Kontroly před rychlým/makro hodem",
   "midi-qol.PreRollChecks.Hint": "Experimentální: Kontroly před provedením hodu položky; aktuálně v dosahu a házející má > 0 BV.",
   "midi-qol.noTargets": "Před hodem na útok musíš označit token",
@@ -250,10 +237,10 @@
   "midi-qol.autoApplyDamageOptions": {
     "none": "Ne",
     "noCard": "Ne + karta zásahu",
-    "noCardMisses": "Ne + karta zásahu + minely",
+    "noCardMisses": "Ne + karta zásahu + selhání",
     "yes": "Ano",
     "yesCard": "Ano + karta zásahu",
-    "yesCardMisses": "Ano + karta zásahu + minely",
+    "yesCardMisses": "Ano + karta zásahu + selhání",
     "yesCardNPC": "Ano(NP) Ne(hráči) + karta zásahu"
   },
   "midi-qol.playerDamageCardOptions": {
@@ -297,7 +284,6 @@
   },
   "midi-qol.playerRollSavesOptionsReduced": {
     "none": "Nikdy",
-    "letme": "Nech mě to za tebe hodit",
     "chat": "Zpráva v chatu"
   },
   "midi-qol.AutoRemoveTargetsOptions": {
@@ -317,8 +303,8 @@
     "detailsDSN": "Vzorec hodu, ale ukázat hod DiceSoNice",
     "details": "Vzorec hodu",
     "d20Only": "Zobrazovat útoky k20 + celkové zranění",
-    "hitDamage": "Zobrazovat zásahy/minely + celkové zranění",
-    "hitCriticalDamage": "Zobrazovat zásahy/minely/kritické zásahy/kritické minely + celkové zranění",
+    "hitDamage": "Zobrazovat zásahy/selhání + celkové zranění",
+    "hitCriticalDamage": "Zobrazovat zásahy/selhání/kritické zásahy/kritická selhání + celkové zranění",
     "attackTotalOnly": "Zobrazovatt pouze celkový hod na útok",
     "d20AttackOnly": "Zobrazovat pouze útoky k20",
     "all": "Celý hod"
@@ -337,7 +323,7 @@
     "detailsDSN": "<strong>Vzorec hodu, ale zobrazovat DiceSoNice</strong>: Skrýt vzorec hodu, ale stále zobrazovat DiceSoNice.",
     "details": "<strong>Vzorec hodu</strong>: Skrýt vzorec hodu a nezobrazovat DiceSoNice.",
     "d20Only": "<strong>Zobrazit hod k20 + celkové zranění</strong>: Zobrazit hod k20 a celkové zranění.",
-    "hitDamage": "<strong>Zobrazit zásah/minelu + celkové zranění</strong>: Zobrazit zásah/minelu a celkové zranění.",
+    "hitDamage": "<strong>Zobrazit zásah/selhání + celkové zranění</strong>: Zobrazit zásah/selhání a celkové zranění.",
     "d20attackOnly": "<strong>Zobrazit pouze útok k20</strong>: Zobrazit pouze kostku útoku k20.",
     "all": "<strong>Celý hod</strong>: Skrývat všechny detaily hodu před hráči."
   },
@@ -445,7 +431,7 @@
   "midi-qol.Targeting": "Cílení",
   "midi-qol.Special": "Speciální",
   "midi-qol.Hits": "Zásahy",
-  "midi-qol.Misses": "Minely",
+  "midi-qol.Misses": "Selhání",
   "midi-qol.Saves": "Záchrany",
   "midi-qol.SavesBase": "Pokud cíl uspěje v záchraně, položka udělá:",
   "midi-qol.SavesBonus": "Pokud cíl uspěje v záchraně, makra bonusového zranění udělají:",
@@ -458,7 +444,7 @@
   "midi-qol.DamageMacro.Hint": "Seznam maker oddělený čárkami, která se vyvolají při výpočtu zranění, a která budou aplikována při výpočtu zranění cílů.",
   "midi-qol.AttackMacro.Name": "Makra pro bonus k útoku",
   "midi-qol.AttackMacro.Hint": "Seznam maker oddělený čárkami, která se vyvolají při výpočtu hodu na útok, a která budou aplikována při kontrole, zda útok zasáhl cíle.",
-  "midi-qol.DAEMidiQoL": "Specifické pro DAE/Midi-QoL",
+  "midi-qol.DAEMidiQOL": "Specifické pro DAE/Midi-QoL",
   "midi-qol.OptionalRules.Name": "Volitelná pravidla",
   "midi-qol.OptionalRules.Hint": "Pravidla hry DnD5E, která možná budeš chtít povolit. Obecně nefungují s lepšími hody.",
   "midi-qol.InvisAdvantage.Name": "Nevidění/neviditelní útočníci mají Výhodu/Nevýhodu při útocích",
@@ -554,8 +540,8 @@
   "midi-qol.RequireMagical.Name": "Požadovat parametr 'Magická'",
   "midi-qol.RequireMagical.Hint": "Parametr Magická je buď parametr <strong>Magická</strong> z DnD5e, nebo parametr <strong>Midi-QoL Magické zranění</strong>. Pokud je nastaven, položka způsobuje magické zranění.<br><strong>Vypnuto</strong> znamená, že nemagické položky způsobují výchozí magické zranění. Zbraně způsobují magické zranění, pokud je bonus k útoku > 0.<br><strong>Nemagické</strong> znamená, že výchozí magické zranění mají pouze kouzla.<br><strong>Vše</strong> znamená, že žádná položka nezpůsobuje výchozí magické zranění.",
   "midi-qol.RequireMagicalOptions": {
-    "off": "Vypnout: Nemagické zbraně způsobují magické zranění",
-    "nonspell": "Nemagické zranění dělají všechny položky kromě kouzel",
+    "off": "Vypnout: Jiné než zbraně způsobují magické zranění",
+    "nonspell": "Jiné než kouzla způsobují nemagické zranění",
     "allitems": "Všechny položky způsobují nemagické zranění"
   },
   "midi-qol.DoConcentrationCheck.Name": "Vynucení záchranného hodu na soustředění při utrženém zranění",
@@ -592,8 +578,6 @@
   "midi-qol.ActiveDefence.Hint": "Místo toho, aby PJ prováděl hod 'na útok', hráči hází na obranu.",
   "midi-qol.ActiveDefenceShow.Name": "Výchozí zobrazení hodů na aktivní obranu",
   "midi-qol.ActiveDefenceShow.Hint": "Pokud je nastaven 'Hod pro sebe', hod bude skryt PJ bez ohledu na další nastavení.",
-  "midi-qol.PromptDamageRoll.Name": "Rozšířený dialog hodu na zásah",
-  "midi-qol.PromptDamageRoll.Hint": "Při použití dialogu hodu na zásah zobrazí rozšířený dialog umožňující výběr zranění položky.",
   "midi-qol.GMHide3dDice.Name": "Skrývání 3D hodů na útok/zásah/záchranu od PJ - přepisuje další nastavení (pouze sloučená karta)",
   "midi-qol.GhostRolls.Name": "Zobrazení hodů na útok/zásah pomocí 'DiceSoNice ghost rolls' místo jejich skrytí (pouze sloučená karta)",
   "midi-qol.convenientEffectsOn": "Použít Convenient Effect",
@@ -770,7 +754,7 @@
     "ceflanked": "CE Obklíčený",
     "midiFlanked": "Efekt Midi obklíčený",
     "ceflankedNoconga": "CE Obklíčený + žádné hadí linie",
-    "miidFlankedNoConga": "Midi Obklíčený + žádnáí hadí linie"
+    "midiFlankedNoConga": "Midi Obklíčený + žádné hadí linie"
   },
   "midi-qol.Flanked": "Obklíčený",
   "midi-qol.Flanking": "Obklíčení",
@@ -809,8 +793,8 @@
   "midi-qol.SkillAbilityCheckAdvantage.Hint": "Pokud má aktér Výhodu/Nevýhodu na hody vlastností, dovednosti založené na této vlastnosti mají taktéž Výhodu/Nevýhodu.",
   "midi-qol.ignoreTotalCover": "Žádný plný kryt",
   "midi-qol.InitPromptTitle": "Hod na iniciativu",
-  "midi-qol.HighlightSuccess.Name": "Barevné označení zobrazení zásahů/minel/záchran",
-  "midi-qol.HighlightSuccess.Hint": "Při zobrazování zásahů/minel budou zásahy/záchrany zelené a minely/selhání záchran červené.",
+  "midi-qol.HighlightSuccess.Name": "Barevné označení zobrazení zásahů/selhání/záchran",
+  "midi-qol.HighlightSuccess.Hint": "Při zobrazování zásahů/selhání budou zásahy/záchrany zelené a selhání/neúspěšné záchrany červené.",
   "midi-qol.HighLightCriticalAttackOnly.Name": "Označení pouze kritických/selhávajících zásahů",
   "midi-qol.HighLightCriticalAttackOnly.Hint": "Přepíše označování útoků DnD5e a bude označovat pouze kritické/selhávající hody útoků.",
   "midi-qol.OptionalRuleVitality.Name": "(Domácí pravidlo) Vitalita",
@@ -832,7 +816,7 @@
     "GMOnly": "Pracovní proces může vrátit pouze PJ"
   },
   "midi-qol.cubNotSupported": "Combat Utility Belt nebude migrován na verzi 11. Midi odstraní podporu CUB ve verzi midi 11.1.0",
-  "midi-qol.ContestedRoll": "Soutěžní hod",
+  "midi-qol.ContestedRoll": "Hod na konflikt",
   "midi-qol.versus": "proti",
   "midi-qol.Skipped": "Přeskočeno",
   "midi-qol.ExportTroubleShooting": "Exportovat data pro řešení problémů",
@@ -994,6 +978,10 @@
         "hint": "Povolí aplikaci stavů aktivních efektů."
       },
       "midiProperties": {
+        "rollMode": {
+          "label": "Režim hodu",
+          "hint": "Jaký režim hodu má aktivita použít."
+        },
         "forceDialog": {
           "label": "Vynucení dialogu nastavení",
           "hint": "Vynutí dialog nastavení při hodu na útok."
@@ -1013,6 +1001,10 @@
         "automationOnly": {
           "label": "Pouze automatizace",
           "hint": "Aktivita je určena pouze pro automatizaci Midi, nikoli pro manuální použití."
+        },
+        "displayActivityName": {
+          "label": "Zobrazení názvu aktivity",
+          "hint": "Zobrazí název aktivity v kartě chatu."
         },
         "identifier": {
           "label": "Identifikátor",
@@ -1060,9 +1052,33 @@
             "hint": "Bude při aplikaci zranění ignorovat úpravu zranění."
           }
         }
+      },  
+      "isOverTimeFlag": {
+        "label": "Aktivita v průběhu času",
+        "hint": "Aktivita může být aktivitou v průběhu času."
       },
+      "overTimeProperties": {
+         "turnChoice": {
+            "label": "Výběr kola",
+            "hint": "Zda začátek, nebo konec kola.",
+            "start": "Začátek kola",
+            "end": "Konec kola"
+        },
+        "saveRemoves": {
+          "label": "Odstranění záchranou",
+          "hint": "Zda má záchana odstranit efekt."
+        },
+        "preRemoveConditionText": {
+          "label": "Podmínka odstranění před aktivitou",
+          "hint": "Bude testováno před hodem na aktivitu. Pokud bude pravda, efekt se odstraní."
+        },
+        "postRemoveConditionText": {
+          "label": "Podmínka odstranění po aktivitě",
+          "hint": "Bude testováno po hodu na aktivitu. Pokud bude pravda, efekt se odstraní."
+        }
+      },    
       "ActivityMacro": {
-        "label": "Makro aktivity",
+        "label": "Makro aktivita",
         "hint": "Makro, které může být spuštěno při použití aktivity."
       },
       "useSystemActivity": {
@@ -1087,12 +1103,6 @@
           "hint": "Ignorovat absorpci zranění při aplikaci zranění."
         }
       }
-    }
-  },
-  "midi-qol.FORWARD": {
-    "Title": {
-      "one": "Midi vypořádání",
-      "other": "Midi vypořádání"
     }
   },
   "midi-qol.ATTACK": {
@@ -1124,6 +1134,12 @@
       "other": "Midi sesílání"
     }
   },
+  "midi-qol.CHECK": {
+    "Title": {
+      "one": "Midi ověření",
+      "other": "Midi ověření"
+    }
+  },
   "midi-qol.DAMAGE": {
     "Title": {
       "one": "Midi zranění",
@@ -1136,10 +1152,45 @@
       "other": "Midi očarování"
     }
   },
+  "midi-qol.FORWARD": {
+    "Title": {
+      "one": "Midi poslat dál",
+      "other": "Midi poslat dál"
+    }
+  },
   "midi-qol.HEAL": {
     "Title": {
       "one": "Midi léčení",
       "other": "Midi léčení"
+    }
+  },
+  "midi-qol.OVERTIME": {
+    "Title": {
+      "one": "Midi v průběhu",
+      "other": "Midi v průběhu"
+    },
+    "extras": {
+      "header": "Nastavení Midi v průběhu"
+    },
+    "FIELDS": {
+      "turnChoice": {
+        "label": "Volba kola",
+        "hint": "Začátek, nebo konec kola.",
+        "start": "Začátek kola",
+        "end": "Konec kola"
+      },
+      "saveRemoves": {
+        "label": "Odstranění záchranou",
+        "hint": "Zda má záchrana efekt odstranit"
+      },
+      "removeConditionBeforeActivity": {
+        "label": "Odstranění efektu před hodem",
+        "hint": "Pokud je splněn stav pro odstranění, efekt bude odstraněn před hodem na aktivitu"
+      },
+      "removeConditionText": {
+        "label": "Odstranění stavu",
+        "hint": "Stav pro odstranění efektu"
+      }
     }
   },
   "midi-qol.SAVE": {
@@ -1160,597 +1211,2357 @@
       "other": "Midi vyvolání"
     }
   },
-  "midi-qol.CHECK": {
-    "Title": {
-      "one": "Midi ověření",
-      "other": "Midi ověření"
-    }
-  },
   "midi-qol.fields": {
-    "use-condition-header": "Podmínka povolení použití Midi aktivity",
+    "use-condition-header": "Midi aktivita smí použít stav",
     "attack-extras": "Pole útoku Midi",
-    "effects-conditon": "Podmínka aplikace Midi efektu",
-    "force-dialog": "Vynutit dialog konfigurace",
+    "effects-conditon": "Stav aplikovaný efektem Midi",
+    "force-dialog": "Vynutit dialog nastavení",
     "midi-automation-only": "Pouze pro použití v Midi automatizaci"
   },
   "midi-qol.BaseDamageFlavor": "Základní zranění",
   "midi-qol.OtherDamageFlavor": "Další zranění",
   "midi-qol.RequireAmmunition.Name": "Vyžádání dostupné munice, pokud je použita",
   "midi-qol.CheckTwoHanded.Name": "Vyžaduje ´žádný štít´ při útocích obouruční zbraní/druhou rukou",
-  "midi-qol.NoAmmunition": "Ve tvém inventáři je 0 {name}",
+  "midi-qol.NoAmmunition": "Ve tvém inventáři není žádná munice typu {name}",
+  "midi-qol.NoAmmunitionAvailable": "Ve tvém inventáři není žádná munice.",
+  "midi-qol.NoAmmunitionSelected": "Musíš bvybrat, jakou munici používat.",
   "midi-qol.TwoHandedShieldWarning": "Pokud je aktér vybaven štítem, nelze použít obouruční zbraň, nebo útok druhou rukou",
 "dae.MidiQOL.fieldData": {
-    "flags.midi-qol.absorption.acid": { "name": "Absorpce kyseliny", "description": "Přeměňuje utržené zranění kyselinou na léčení." },
-    "flags.midi-qol.absorption.bludgeoning": { "name": "Absorpce drtivého zranění", "description": "Přeměňuje utržené drtivé zranění na léčení." },
-    "flags.midi-qol.absorption.cold": { "name": "Absorpce chladu", "description": "Přeměňuje utržené chladné zranění na léčení." },
-    "flags.midi-qol.absorption.fire": { "name": "Absorpce ohně", "description": "Přeměňuje utržené ohnivé zranění na léčení." },
-    "flags.midi-qol.absorption.force": { "name": "Absorpce silového zranění", "description": "Přeměňuje utržené silové zranění na léčení." },
-    "flags.midi-qol.absorption.lightning": { "name": "Absorpce blesku", "description": "Přeměňuje utržené bleskové zranění na léčení." },
-    "flags.midi-qol.absorption.midi-none": { "name": "Žádná absorpce", "description": "" },
-    "flags.midi-qol.absorption.necrotic": { "name": "Absorpce nekrotického zranění", "description": "Přeměňuje utržené nekrotické zranění na léčení." },
-    "flags.midi-qol.absorption.none": { "name": "Žádná absorpce", "description": "" },
-    "flags.midi-qol.absorption.piercing": { "name": "Absorpce bodného zranění", "description": "Přeměňuje utržené bodné zranění na léčení." },
-    "flags.midi-qol.absorption.poison": { "name": "Absorpce jedu", "description": "Přeměňuje utržené zranění jedem na léčení." },
-    "flags.midi-qol.absorption.psychic": { "name": "Absorpce psychického zranění", "description": "Přeměňuje utržené psychické zranění na léčení." },
-    "flags.midi-qol.absorption.radiant": { "name": "Absorpce zářivého zranění", "description": "Přeměňuje utržené zářivé zranění na léčení." },
-    "flags.midi-qol.absorption.slashing": { "name": "Absorpce sečného zranění", "description": "Přeměňuje utržené sečné zranění na léčení." },
-    "flags.midi-qol.absorption.thunder": { "name": "Absorpce hromu", "description": "Přeměňuje utržené hromové zranění na léčení." },
-    "flags.midi-qol.advantage.ability.all": { "name": "Výhoda na všechny vlastnosti", "description": "Výhoda na všechna ověření, záchranné hody a hody na dovednosti." },
-    "flags.midi-qol.advantage.ability.check.all": { "name": "Výhoda na všechna ověření", "description": "Výhoda na všechna ověření a hody na dovednosti." },
-    "flags.midi-qol.advantage.ability.check.cha": { "name": "Výhoda na Charisma", "description": "Výhoda na hod na Charisma." },
-    "flags.midi-qol.advantage.ability.check.con": { "name": "Výhoda na Odolnost", "description": "Výhoda na hod na Odolnost." },
-    "flags.midi-qol.advantage.ability.check.dex": { "name": "Výhoda na Obratnost", "description": "Výhoda na hod na Obratnost." },
-    "flags.midi-qol.advantage.ability.check.int": { "name": "Výhoda na Inteligenci", "description": "Výhoda na hod na Inteligenci." },
-    "flags.midi-qol.advantage.ability.check.str": { "name": "Výhoda na Sílu", "description": "Výhoda na hod na Sílu." },
-    "flags.midi-qol.advantage.ability.check.wis": { "name": "Výhoda na Moudrost", "description": "Výhoda na hod na Moudrost." },
-    "flags.midi-qol.advantage.ability.save.all": { "name": "Výhoda na všechny záchranné hody", "description": "Výhoda na všechny záchranné hody." },
-    "flags.midi-qol.advantage.ability.save.cha": { "name": "Výhoda na záchranné hody na Charisma", "description": "Výhoda na záchranný hod Charismatem." },
-    "flags.midi-qol.advantage.ability.save.con": { "name": "Výhoda na záchranné hody na Odolnost", "description": "Výhoda na záchranný hod Odolností." },
-    "flags.midi-qol.advantage.ability.save.dex": { "name": "Výhoda na záchranné hody na Obratnost", "description": "Výhoda na záchranný hod Obratností." },
-    "flags.midi-qol.advantage.ability.save.int": { "name": "Výhoda na záchranné hody na Inteligence", "description": "Výhoda na záchranný hod Inteligencí." },
-    "flags.midi-qol.advantage.ability.save.str": { "name": "Výhoda na záchranné hody na Síla", "description": "Výhoda na záchranný hod Silou." },
-    "flags.midi-qol.advantage.ability.save.wis": { "name": "Výhoda na záchranné hody na Moudrost", "description": "Výhoda na záchranný hod Moudrostí." },
-    "flags.midi-qol.advantage.all": { "name": "Výhoda na vše", "description": "Výhoda na všechny hody k20." },
-    "flags.midi-qol.advantage.attack.all": { "name": "Výhoda na všechny útoky", "description": "Výhoda na všechny typy útoků (zbraněmi, kouzely i další)." },
-    "flags.midi-qol.advantage.attack.cha": { "name": "Výhoda na útoky Charismatem", "description": "Výhoda na útoky využívající Charisma." },
-    "flags.midi-qol.advantage.attack.con": { "name": "Výhoda na útoky Odolností", "description": "Výhoda na útoky využívající Odolnost." },
-    "flags.midi-qol.advantage.attack.dex": { "name": "Výhoda na útoky Obratností", "description": "Výhoda na útoky využívající Obratnost." },
-    "flags.midi-qol.advantage.attack.heal": { "name": "Výhoda na útoky léčením", "description": "" },
-    "flags.midi-qol.advantage.attack.int": { "name": "Výhoda na útoky Inteligencí", "description": "Výhoda na útoky využívající Inteligenci." },
-    "flags.midi-qol.advantage.attack.msak": { "name": "Výhoda na útoky kouzlem na blízko", "description": "Výhoda na útoky využívající kouzlo na blízko." },
-    "flags.midi-qol.advantage.attack.mwak": { "name": "Výhoda na útoky zbraní na blízko", "description": "Výhoda na útoky využívající zbraň na blízko." },
-    "flags.midi-qol.advantage.attack.other": { "name": "Výhoda na oststní útoky", "description": "" },
-    "flags.midi-qol.advantage.attack.rsak": { "name": "Výhoda na útoky kouzlem na dálku", "description": "Výhoda na útoky využívající kouzlo na dálku." },
-    "flags.midi-qol.advantage.attack.rwak": { "name": "Výhoda na útoky zbraní na dálku", "description": "Výhoda na útoky využívající zbraň na dálku." },
-    "flags.midi-qol.advantage.attack.save": { "name": "Výhoda na útoky se záchranou", "description": "Výhoda na všechny útoky využívající akci typu záchrany." },
-    "flags.midi-qol.advantage.attack.str": { "name": "Výhoda na útoky Silou", "description": "Výhoda na útoky využívající Sílu." },
-    "flags.midi-qol.advantage.attack.util": { "name": "Výhoda na útoky pomocnou aktivitou", "description": "Výhoda na všechny útoky položek označených jako pomocná aktivita." },
-    "flags.midi-qol.advantage.attack.wis": { "name": "Výhoda na útoky Moudrostí", "description": "Výhoda na útoky využívající Moudrost." },
-    "flags.midi-qol.fail.disadvantage.heavy": { "name": "Nevýhoda kvůli těžkém zbroji", "description": "Nevýhoda na Nenápadnost kvůli těžké zbroji." },
-    "flags.midi-qol.": { "name": "MIDI-QoL Příznaky", "description": "" },
-    "flags.midi-qol.DR.msak": { "name": "Snížení zranění (msak) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.mwak": { "name": "Snížení zranění (mwak) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.non-adamant": { "name": "Snížení zranění (neadamantinové) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.non-magical": { "name": "Snížení zranění (nemagické) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.non-magical-physical": { "name": "Snížení zranění (nemagické fyzické) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.non-physical": { "name": "Snížení zranění (nefyzické) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.non-silver": { "name": "Snížení zranění (nestříbrné) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.other": { "name": "Snížení zranění (ostatní) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.rsak": { "name": "Snížení zranění (rsak) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.rwak": { "name": "Snížení zranění (rwak) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.save": { "name": "Snížení zranění (záchranný hod) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.util": { "name": "Snížení zranění (pomocná aktivita) (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.acid": { "name": "Snížení zranění kyselinou (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.all": { "name": "Snížení veškerého zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.bludgeoning": { "name": "Snížení zranění drtivým útokem (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.cold": { "name": "Snížení zranění chladem (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.final": { "name": "Konečné snížení zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.fire": { "name": "Snížení zranění ohněm (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.force": { "name": "Snížení silového zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.healing": { "name": "Snížení léčení (Zastaralé)", "description": "PPoužij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.lightning": { "name": "Snížení zranění bleskem (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.midi-none": { "name": "Žádné snížení zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.necrotic": { "name": "Snížení zranění nekrotickou energií (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.none": { "name": "Žádné snížení zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.piercing": { "name": "Snížení zranění bodným útokem (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.poison": { "name": "Snížení zranění jedem (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.psychic": { "name": "Snížení psychického zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.radiant": { "name": "Snížení zářivého zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.slashing": { "name": "Snížení zranění sečným útokem (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.temphp": { "name": "Snížení zranění dočasnými životy (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.DR.thunder": { "name": "Snížení hromového zranění (Zastaralé)", "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)." },
-    "flags.midi-qol.OverTime": { "name": "Efekty v čase", "description": "" },
-    "flags.midi-qol.advantage.concentration": { "name": "Výhoda (Soustředění)", "description": "Výhoda při ověření soustředění." },
-    "flags.midi-qol.advantage.deathSave": { "name": "Výhoda (Záchrana před smrtí)", "description": "Výhoda při záchranném hodu proti smrti." },
-    "flags.midi-qol.advantage.skill.acr": { "name": "Výhoda (Akrobacie)", "description": "Výhoda při ověření Akrobacie." },
-    "flags.midi-qol.advantage.skill.all": { "name": "Výhoda (Všechny dovednosti)", "description": "Výhoda při všech ověřeních dovedností." },
-    "flags.midi-qol.advantage.skill.ani": { "name": "Výhoda (Ovládání zvířat)", "description": "Výhoda při ověření Ovládání zvířat." },
-    "flags.midi-qol.advantage.skill.arc": { "name": "Výhoda (Mystika)", "description": "Výhoda při ověření Mystiky." },
-    "flags.midi-qol.advantage.skill.ath": { "name": "Výhoda (Atletika)", "description": "Výhoda při ověření Atletiky." },
-    "flags.midi-qol.advantage.skill.dec": { "name": "Výhoda (Klamání)", "description": "Výhoda při ověření Klamání." },
-    "flags.midi-qol.advantage.skill.his": { "name": "Výhoda (Historie)", "description": "Výhoda při ověření Historie." },
-    "flags.midi-qol.advantage.skill.ins": { "name": "Výhoda (Vhled)", "description": "Výhoda při ověření Vhledu." },
-    "flags.midi-qol.advantage.skill.inv": { "name": "Výhoda (Pátrání)", "description": "Výhoda při ověření Pátrání." },
-    "flags.midi-qol.advantage.skill.itm": { "name": "Výhoda (Zastrašování)", "description": "Výhoda při ověření Zastrašování." },
-    "flags.midi-qol.advantage.skill.med": { "name": "Výhoda (Lékařství)", "description": "Výhoda při ověření Lékařství." },
-    "flags.midi-qol.advantage.skill.nat": { "name": "Výhoda (Příroda)", "description": "Výhoda při ověření Přírody." },
-    "flags.midi-qol.advantage.skill.per": { "name": "Výhoda (Přesvědčování)", "description": "Výhoda při ověření Přesvědčování." },
-    "flags.midi-qol.advantage.skill.prc": { "name": "Výhoda (Vnímání)", "description": "Výhoda při ověření Vnímání." },
-    "flags.midi-qol.advantage.skill.prf": { "name": "Výhoda (Umění)", "description": "Výhoda při ověření Umění." },
-    "flags.midi-qol.advantage.skill.rel": { "name": "Výhoda (Náboženství)", "description": "Výhoda při ověření Náboženství." },
-    "flags.midi-qol.advantage.skill.slt": { "name": "Výhoda (Čachry)", "description": "Výhoda při ověření Čachrů." },
-    "flags.midi-qol.advantage.skill.ste": { "name": "Výhoda (Nenápadnost)", "description": "Výhoda při ověření Nenápadnosti." },
-    "flags.midi-qol.advantage.skill.sur": { "name": "Výhoda (Přežití)", "description": "Výhoda při ověření Přežití." },
-    "flags.midi-qol.carefulSpells": { "name": "Opatrná kouzla", "description": "Předem vybrané cíle kouzel se záchranami automaticky uspějí." },
-    "flags.midi-qol.concentrationSaveBonus": { "name": "Bonus k záchraně soustředění", "description": "" },
-    "flags.midi-qol.critical.all": { "name": "Kritický zásah (Vše)", "description": "" },
-    "flags.midi-qol.critical.heal": { "name": "Kritický zásah (Léčení)", "description": "" },
-    "flags.midi-qol.critical.msak": { "name": "Kritický zásah (Útok kouzlem na blízko)", "description": "" },
-    "flags.midi-qol.critical.mwak": { "name": "Kritický zásah (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.critical.other": { "name": "Kritický zásah (Jiné)", "description": "" },
-    "flags.midi-qol.critical.rsak": { "name": "Kritický zásah (Útok kouzlem na dálku)", "description": "" },
-    "flags.midi-qol.critical.rwak": { "name": "Kritický zásah (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.critical.save": { "name": "Kritický zásah (Záchrana)", "description": "" },
-    "flags.midi-qol.critical.util": { "name": "Kritický zásah (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.damage.reroll-kh": { "name": "Přehoz zranění (Ponechat nejvyšší)", "description": "" },
-    "flags.midi-qol.damage.reroll-kl": { "name": "Přehoz zranění (Ponechat nejnižší)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.all": { "name": "Nevýhoda (Všechny vlastnosti)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.all": { "name": "Nevýhoda (Všechna ověření vlastností)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.cha": { "name": "Nevýhoda (Ověření Charismatu)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.con": { "name": "Nevýhoda (Ověření Odolnosti)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.dex": { "name": "Nevýhoda (Ověření Obratnosti)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.int": { "name": "Nevýhoda (Ověření Inteligence)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.str": { "name": "Nevýhoda (Ověření Síly)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.check.wis": { "name": "Nevýhoda (Ověření Moudrosti)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.all": { "name": "Nevýhoda (Všechny záchranné hody)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.cha": { "name": "Nevýhoda (Záchranný hod na Charisma)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.con": { "name": "Nevýhoda (Záchranný hod na Odolnost)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.dex": { "name": "Nevýhoda (Záchranný hod na Obratnost)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.int": { "name": "Nevýhoda (Záchranný hod na Inteligenci)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.str": { "name": "Nevýhoda (Záchranný hod na Sílu)", "description": "" },
-    "flags.midi-qol.disadvantage.ability.save.wis": { "name": "Nevýhoda (Záchranný hod na Moudrost)", "description": "" },
-    "flags.midi-qol.disadvantage.all": { "name": "Nevýhoda na všechny hody", "description": "Nevýhoda na všechny hody k20." },
-    "flags.midi-qol.disadvantage.attack.all": { "name": "Nevýhoda (Všechny útoky)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.cha": { "name": "Nevýhoda (Útok Charismatem)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.con": { "name": "Nevýhoda (Útok Odolností)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.dex": { "name": "Nevýhoda (Útok Obratností)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.heal": { "name": "Nevýhoda (Léčení)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.int": { "name": "Nevýhoda (Útok Inteligencí)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.msak": { "name": "Nevýhoda (Útoky na blízko kouzlem)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.mwak": { "name": "Nevýhoda (Útoky na blízko zbraní)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.other": { "name": "Nevýhoda (Jiné útoky)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.rsak": { "name": "Nevýhoda (Útok na dálku kouzlem)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.rwak": { "name": "Nevýhoda (Útok na dálku zbraní)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.save": { "name": "Nevýhoda (Záchranný hod)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.util": { "name": "Nevýhoda (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.disadvantage.attack.wis": { "name": "Nevýhoda (Útok Moudrostí)", "description": "" },
-    "flags.midi-qol.disadvantage.concentration": { "name": "Nevýhoda (Soustředění)", "description": "" },
-    "flags.midi-qol.disadvantage.deathSave": { "name": "Nevýhoda (Záchrana proti smrti)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.acr": { "name": "Nevýhoda (Akrobacie)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.all": { "name": "Nevýhoda (Všechny dovednosti)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.ani": { "name": "Nevýhoda (Ovládání zvířat)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.arc": { "name": "Nevýhoda (Mystika)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.ath": { "name": "Nevýhoda (Atletika)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.dec": { "name": "Nevýhoda (Klamání)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.his": { "name": "Nevýhoda (Historie)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.ins": { "name": "Nevýhoda (Vhled)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.inv": { "name": "Nevýhoda (Vyšetřování)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.itm": { "name": "Nevýhoda (Zastrašování)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.med": { "name": "Nevýhoda (Lékařství)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.nat": { "name": "Nevýhoda (Příroda)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.per": { "name": "Nevýhoda (Přesvědčování)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.prc": { "name": "Nevýhoda (Vnímání)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.prf": { "name": "Nevýhoda (Umění)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.rel": { "name": "Nevýhoda (Náboženství)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.slt": { "name": "Nevýhoda (Čachry)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.ste": { "name": "Nevýhoda (Nenápadnost)", "description": "" },
-    "flags.midi-qol.disadvantage.skill.sur": { "name": "Nevýhoda (Přežití)", "description": "" },
-    "flags.midi-qol.fail.ability.all": { "name": "Selhání (Všechny vlastnosti)", "description": "" },
-    "flags.midi-qol.fail.ability.check.all": { "name": "Selhání (Všechna ověřování vlastností)", "description": "" },
-    "flags.midi-qol.fail.ability.check.cha": { "name": "Selhání (Ověření Charismatu)", "description": "" },
-    "flags.midi-qol.fail.ability.check.con": { "name": "Selhání (Ověření Odolnosti)", "description": "" },
-    "flags.midi-qol.fail.ability.check.dex": { "name": "Selhání (Ověření Obratnosti)", "description": "" },
-    "flags.midi-qol.fail.ability.check.int": { "name": "Selhání (Ověření Inteligence)", "description": "" },
-    "flags.midi-qol.fail.ability.check.str": { "name": "Selhání (Ověření Síly)", "description": "" },
-    "flags.midi-qol.fail.ability.check.wis": { "name": "Selháníh (Ověření Moudrosti)", "description": "" },
-    "flags.midi-qol.fail.ability.save.all": { "name": "Selhání (Všechny záchranné hody)", "description": "" },
-    "flags.midi-qol.fail.ability.save.cha": { "name": "Selhání (Záchranný hod na Charisma)", "description": "" },
-    "flags.midi-qol.fail.ability.save.con": { "name": "Selhání (Záchranný hod na Odolnost)", "description": "" },
-    "flags.midi-qol.fail.ability.save.dex": { "name": "Selhání (Záchranný hod na Obratnost)", "description": "" },
-    "flags.midi-qol.fail.ability.save.int": { "name": "Selhání (Záchranný hod na Inteligenci)", "description": "" },
-    "flags.midi-qol.fail.ability.save.str": { "name": "Selhání (Záchranný hod na Sílu)", "description": "" },
-    "flags.midi-qol.fail.ability.save.wis": { "name": "Selhání (Záchranný hod na Moudrost)", "description": "" },
-    "flags.midi-qol.fail.all": { "name": "Selhání (Všechny akce)", "description": "" },
-    "flags.midi-qol.fail.attack.all": { "name": "Selhání (Všechny útoky)", "description": "" },
-    "flags.midi-qol.fail.attack.heal": { "name": "Selhání (Léčení)", "description": "" },
-    "flags.midi-qol.fail.attack.msak": { "name": "Selhání (Útok kouzlem na blízko)", "description": "" },
-    "flags.midi-qol.fail.attack.mwak": { "name": "Selhání (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.fail.attack.other": { "name": "Selhání (Ostatní útoky)", "description": "" },
-    "flags.midi-qol.fail.attack.rsak": { "name": "Selhání (Útok kouzem na dálku)", "description": "" },
-    "flags.midi-qol.fail.attack.rwak": { "name": "Selhání (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.fail.attack.save": { "name": "Selhání (Záchranný hod)", "description": "" },
-    "flags.midi-qol.fail.attack.util": { "name": "Selhání (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.fail.critical.all": { "name": "Kritické selhání (Vše)", "description": "" },
-    "flags.midi-qol.fail.critical.heal": { "name": "Kritické selhání (Léčení)", "description": "" },
-    "flags.midi-qol.fail.critical.msak": { "name": "Kritické selhání (Útok kouzlem na blízko)", "description": "" },
-    "flags.midi-qol.fail.critical.mwak": { "name": "Kritické selhání (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.fail.critical.other": { "name": "Kritické selhání (Ostatní)", "description": "" },
-    "flags.midi-qol.fail.critical.rsak": { "name": "Kritické selhání (Útok kouzlem na dálku)", "description": "" },
-    "flags.midi-qol.fail.critical.rwak": { "name": "Kritické selhání (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.fail.critical.save": { "name": "Kritické selhání (Záchranný hod)", "description": "" },
-    "flags.midi-qol.fail.critical.util": { "name": "Kritické selhání (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.fail.skill.acr": { "name": "Selhání (Akrobacie)", "description": "" },
-    "flags.midi-qol.fail.skill.all": { "name": "Selhání (Všechny dovednosti)", "description": "" },
-    "flags.midi-qol.fail.skill.ani": { "name": "Selhání (Ovládání zvířat)", "description": "" },
-    "flags.midi-qol.fail.skill.arc": { "name": "Selhání (Mystika)", "description": "" },
-    "flags.midi-qol.fail.skill.ath": { "name": "Selhání (Atletika)", "description": "" },
-    "flags.midi-qol.fail.skill.dec": { "name": "Selhání (Klamání)", "description": "" },
-    "flags.midi-qol.fail.skill.his": { "name": "Selhání (Historie)", "description": "" },
-    "flags.midi-qol.fail.skill.ins": { "name": "Selhání (Vhled)", "description": "" },
-    "flags.midi-qol.fail.skill.inv": { "name": "Selhání (Vyšetřování)", "description": "" },
-    "flags.midi-qol.fail.skill.itm": { "name": "Selhání (Zastrašování)", "description": "" },
-    "flags.midi-qol.fail.skill.med": { "name": "Selhání (Lékařství)", "description": "" },
-    "flags.midi-qol.fail.skill.nat": { "name": "Selhání (Příroda)", "description": "" },
-    "flags.midi-qol.fail.skill.per": { "name": "Selhání (Přesvědčování)", "description": "" },
-    "flags.midi-qol.fail.skill.prc": { "name": "Selhání (Vnímání)", "description": "" },
-    "flags.midi-qol.fail.skill.prf": { "name": "Selhání (Umění)", "description": "" },
-    "flags.midi-qol.fail.skill.rel": { "name": "Selhání (Náboženství)", "description": "" },
-    "flags.midi-qol.fail.skill.slt": { "name": "Selhání (Čachry)", "description": "" },
-    "flags.midi-qol.fail.skill.ste": { "name": "Selhání (Nenápadnost)", "description": "" },
-    "flags.midi-qol.fail.skill.sur": { "name": "Selhání (Přežití)", "description": "" },
-    "flags.midi-qol.fail.spell.material": { "name": "Selhání (Materiální složka)", "description": "" },
-    "flags.midi-qol.fail.spell.somatic": { "name": "Selhání (Pohybová složka)", "description": "" },
-    "flags.midi-qol.fail.spell.vocal": { "name": "Selhání (Verbální složka)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.all": { "name": "Zajistí Výhodu (Všechny útoky)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.heal": { "name": "Zajistí Výhodu (Léčení)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.msak": { "name": "Zajistí Výhodu (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.mwak": { "name": "Zajistí Výhodu (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.other": { "name": "Zajistí Výhodu (Ostatní útoky)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.rsak": { "name": "Zajistí Výhodu (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.rwak": { "name": "Zajistí Výhodu (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.save": { "name": "Zajistí Výhodu (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.advantage.attack.util": { "name": "Zajistí Výhodu (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.all": { "name": "Zajistí Výhodu (Všechny hody na ověření)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.cha": { "name": "Zajistí Výhodu (Ověření Charismatu)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.con": { "name": "Zajistí Výhodu (Ověření Odolnosti)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.dex": { "name": "Zajistí Výhodu (Ověření Obratnosti)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.int": { "name": "Zajistí Výhodu (Ověření Inteligence)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.str": { "name": "Zajistí Výhodu (Ověření Síly)", "description": "" },
-    "flags.midi-qol.grants.advantage.check.wis": { "name": "Zajistí Výhodu (Ověření Moudrosti)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.all": { "name": "Zajistí Výhodu (Všechny záchranné hody)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.cha": { "name": "Zajistí Výhodu (Záchranný hod na Charisma)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.con": { "name": "Zajistí Výhodu (Záchranný hod na Odolnost)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.dex": { "name": "Zajistí Výhodu (Záchranný hod na Obratnost)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.int": { "name": "Zajistí Výhodu (Záchranný hod na Inteligenci)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.str": { "name": "Zajistí Výhodu (Záchranný hod na Sílu)", "description": "" },
-    "flags.midi-qol.grants.advantage.save.wis": { "name": "Zajistí Výhodu (Záchranný hod na Moudrost)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.all": { "name": "Zajistí Výhodu (Všechny dovednosti)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.cha": { "name": "Zajistí Výhodu (Dovednosti založené na Charismatu)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.con": { "name": "Zajistí Výhodu (Dovednosti založené na Odolnosti)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.dex": { "name": "Zajistí Výhodu (Dovednosti založené na Obratnosti)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.int": { "name": "Zajistí Výhodu (Dovednosti založené na Inteligenci)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.str": { "name": "Zajistí Výhodu (Dovednosti založené na Síle)", "description": "" },
-    "flags.midi-qol.grants.advantage.skill.wis": { "name": "Zajistí Výhodu (Dovednosti založené na Moudrosti)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.all": { "name": "Zajistí bonus k útoku (Všechny)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.heal": { "name": "Zajistí bonus k útoku (Léčení)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.msak": { "name": "Zajistí bonus k útoku (Útok kouzlem na blízko)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.mwak": { "name": "Zajistí bonus k útoku (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.other": { "name": "Zajistí bonus k útoku (Ostatní)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.rsak": { "name": "Zajistí bonus k útoku (Útok kouzlem na dálku)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.rwak": { "name": "Zajistí bonus k útoku (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.save": { "name": "Zajistí bonus k útoku (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.attack.bonus.util": { "name": "Zajistí bonus k útoku (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.grants.attack.fail.all": { "name": "Zajistí selhání útoku (Všechny)", "description": "" },
-    "flags.midi-qol.grants.attack.success.all": { "name": "Zajiatí úspěch útoku (Všechny)", "description": "" },
-    "flags.midi-qol.grants.attack.success.heal": { "name": "Zajiatí úspěch útoku (Léčení)", "description": "" },
-    "flags.midi-qol.grants.attack.success.msak": { "name": "Zajiatí úspěch útoku (Útok kouzlem na blízko)", "description": "" },
-    "flags.midi-qol.grants.attack.success.mwak": { "name": "Zajiatí úspěch útoku (Útok zbraní na blízko", "description": "" },
-    "flags.midi-qol.grants.attack.success.other": { "name": "Zajiatí úspěch útoku (Ostatní)", "description": "" },
-    "flags.midi-qol.grants.attack.success.rsak": { "name": "Zajiatí úspěch útoku (Útok kouzlem na dálku)", "description": "" },
-    "flags.midi-qol.grants.attack.success.rwak": { "name": "Zajiatí úspěch útoku (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.attack.success.save": { "name": "Zajiatí úspěch útoku (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.attack.success.util": { "name": "Zajiatí úspěch útoku (Pomocná aktivita)", "description": "" },    
-    "flags.midi-qol.grants.critical.all": { "name": "Zajistí kritický zásah (Všechny)", "description": "" },
-    "flags.midi-qol.grants.critical.heal": { "name": "Zajistí kritický zásah (Léčení)", "description": "" },
-    "flags.midi-qol.grants.critical.msak": { "name": "Zajistí kritický zásah (Útok kouzlem na blízko)", "description": "" },
-    "flags.midi-qol.grants.critical.mwak": { "name": "Zajistí kritický zásah (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.critical.other": { "name": "Zajistí kritický zásah (Ostatní)", "description": "" },
-    "flags.midi-qol.grants.critical.range": { "name": "Zajistí kritický zásah (Útok na dálku)", "description": "" },
-    "flags.midi-qol.grants.critical.rsak": { "name": "Zajistí kritický zásah (Útok kouzlem na dálku)", "description": "" },
-    "flags.midi-qol.grants.critical.rwak": { "name": "Zajistí kritický zásah (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.critical.save": { "name": "Zajistí kritický zásah (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.critical.util": { "name": "Zajistí kritický zásah (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.grants.criticalThreshold": { "name": "Práh kritického zásahu", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.all": { "name": "Zajistí Nevýhodu (Všechny útoky)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.heal": { "name": "Zajistí Nevýhodu (Léčení)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.msak": { "name": "Zajistí Nevýhodu (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.mwak": { "name": "Zajistí Nevýhodu (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.other": { "name": "Zajistí Nevýhodu (Ostatní útoky)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.rsak": { "name": "Zajistí Nevýhodu (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.rwak": { "name": "Zajistí Nevýhodu (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.save": { "name": "Zajistí Nevýhodu (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.attack.util": { "name": "Zajistí Nevýhodu (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.all": { "name": "Zajistí Nevýhodu (Všechny hody na ověření)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.cha": { "name": "Zajistí Nevýhodu (Ověření Charismatu)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.con": { "name": "Zajistí Nevýhodu (Ověření Odolnosti)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.dex": { "name": "Zajistí Nevýhodu (Ověření Obratnosti)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.int": { "name": "Zajistí Nevýhodu (Ověření Inteligence)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.str": { "name": "Zajistí Nevýhodu (Ověření Síly)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.check.wis": { "name": "Zajistí Nevýhodu (Ověření Moudrosti)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.all": { "name": "Zajistí Nevýhodu (Všechny záchranné hody)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.cha": { "name": "Zajistí Nevýhodu (Záchranný hod na Charisma)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.con": { "name": "Zajistí Nevýhodu (Záchranný hod na Odolnost)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.dex": { "name": "Zajistí Nevýhodu (Záchranný hod na Obratnost)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.int": { "name": "Zajistí Nevýhodu (Záchranný hod na Inteligenci)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.str": { "name": "Zajistí Nevýhodu (Záchranný hod na Sílu)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.save.wis": { "name": "Zajistí Nevýhodu (Záchranný hod na Moudrost)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.all": { "name": "Zajistí Nevýhodu (Všechny dovednosti)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.cha": { "name": "Zajistí Nevýhodu (Dovednosti založené na Charismatu)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.con": { "name": "Zajistí Nevýhodu (Dovednosti založené na Odolnosti)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.dex": { "name": "Zajistí Nevýhodu (Dovednosti založené na Obratnosti)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.int": { "name": "Zajistí Nevýhodu (Dovednosti založené na Inteligenci)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.str": { "name": "Zajistí Nevýhodu (Dovednosti založené na Síle)", "description": "" },
-    "flags.midi-qol.grants.disadvantage.skill.wis": { "name": "Zajistí Nevýhodu (Dovednosti založené na Moudrosti)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.all": { "name": "Zajistí selhání Výhody (Všechny útoky)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.heal": { "name": "Zajistí selhání Výhody (Léčení)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.msak": { "name": "Zajistí selhání Výhody (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.mwak": { "name": "Zajistí selhání Výhody (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.other": { "name": "Zajistí selhání Výhody (Ostatní útoky)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.rsak": { "name": "Zajistí selhání Výhody (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.rwak": { "name": "Zajistí selhání Výhody (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.save": { "name": "Zajistí selhání Výhody (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.fail.advantage.attack.util": { "name": "Zajistí selhání Výhody (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.all": { "name": "Zajistí selhání Nevýhody (Všechny útoky)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.heal": { "name": "Zajistí selhání Nevýhody (Léčení)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.msak": { "name": "Zajistí selhání Nevýhody (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.mwak": { "name": "Zajistí selhání Nevýhody (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.other": { "name": "Zajistí selhání Nevýhody (Ostatní útoky)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.rsak": { "name": "Zajistí selhání Nevýhody (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.rwak": { "name": "Zajistí selhání Nevýhody (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.save": { "name": "Zajistí selhání Nevýhody (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.fail.disadvantage.attack.util": { "name": "Zajistí selhání Nevýhody (Užitečné akce)", "description": "" },
-    "flags.midi-qol.grants.max.damage.all": { "name": "Zajistí maximální zranění (Vše)", "description": "" },
-    "flags.midi-qol.grants.max.damage.heal": { "name": "Zajistí maximální zranění (Léčení)", "description": "" },
-    "flags.midi-qol.grants.max.damage.msak": { "name": "Zajistí maximální zranění (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.max.damage.mwak": { "name": "Zajistí maximální zranění (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.max.damage.other": { "name": "Zajistí maximální zranění (Ostatní)", "description": "" },
-    "flags.midi-qol.grants.max.damage.rsak": { "name": "Zajistí maximální zranění (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.max.damage.rwak": { "name": "Zajistí maximální zranění (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.max.damage.save": { "name": "Zajistí maximální zranění (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.max.damage.util": { "name": "Zajistí maximální zranění (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.grants.min.damage.all": { "name": "Zajistí minimální zranění (Vše)", "description": "" },
-    "flags.midi-qol.grants.min.damage.heal": { "name": "Zajistí minimální zranění (Léčení)", "description": "" },
-    "flags.midi-qol.grants.min.damage.msak": { "name": "Zajistí minimální zranění (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.min.damage.mwak": { "name": "Zajistí minimální zranění (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.min.damage.other": { "name": "Zajistí minimální zranění (Ostatní)", "description": "" },
-    "flags.midi-qol.grants.min.damage.rsak": { "name": "Zajistí minimální zranění (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.min.damage.rwak": { "name": "Zajistí minimální zranění (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.min.damage.save": { "name": "Zajistí minimální zranění (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.min.damage.util": { "name": "Zajistí minimální zranění (Pomocná aktivita", "description": "" },
-    "flags.midi-qol.grants.noCritical.all": { "name": "Znemožní kritický zásah (Vše)", "description": "" },
-    "flags.midi-qol.grants.noCritical.heal": { "name": "Znemožní kritický zásah (Léčení)", "description": "" },
-    "flags.midi-qol.grants.noCritical.msak": { "name": "Znemožní kritický zásah (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.noCritical.mwak": { "name": "Znemožní kritický zásah (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.grants.noCritical.other": { "name": "Znemožní kritický zásah (Ostatní)", "description": "" },
-    "flags.midi-qol.grants.noCritical.rsak": { "name": "Znemožní kritický zásah (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.noCritical.rwak": { "name": "Znemožní kritický zásah (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.grants.noCritical.save": { "name": "Znemožní kritický zásah (Záchranný hod)", "description": "" },
-    "flags.midi-qol.grants.noCritical.util": { "name": "Znemožní kritický zásah (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.ignoreNearbyFoes": { "name": "Ignoruje blízké nepřátele", "description": "Ignoruje Nevýhodu způsobenou blízkými nepřáteli při útocích na dálku." },
-    "flags.midi-qol.inMotion": { "name": "V pohybu", "description": "" },
-    "flags.midi-qol.long.all": { "name": "Dlouhý dostřel (Vše)", "description": "" },
-    "flags.midi-qol.long.heal": { "name": "Dlouhý dostřel (Léčení)", "description": "" },
-    "flags.midi-qol.long.msak": { "name": "Dlouhý dostřel (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.long.mwak": { "name": "Dlouhý dostřel (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.long.other": { "name": "Dlouhý dostřel (Ostatní)", "description": "" },
-    "flags.midi-qol.long.rsak": { "name": "Dlouhý dostřel (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.long.rwak": { "name": "Dlouhý dostřel (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.long.save": { "name": "Dlouhý dostřel (Záchranný hod)", "description": "" },
-    "flags.midi-qol.long.util": { "name": "Dlouhý dostřel (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.magicResistance.all": { "name": "Odolání proti magii (Vše)", "description": "" },
-    "flags.midi-qol.magicResistance.cha": { "name": "Odolání proti magii (Charisma)", "description": "" },
-    "flags.midi-qol.magicResistance.check.all": { "name": "Odolání proti magii (Ověření)", "description": "" },
-    "flags.midi-qol.magicResistance.con": { "name": "Odolání proti magii (Odolnost)", "description": "" },
-    "flags.midi-qol.magicResistance.dex": { "name": "Odolání proti magii (Obratnost)", "description": "" },
-    "flags.midi-qol.magicResistance.int": { "name": "Odolání proti magii (Inteligence)", "description": "" },
-    "flags.midi-qol.magicResistance.save.all": { "name": "Odolání proti magii (Záchranné hody)", "description": "" },
-    "flags.midi-qol.magicResistance.skill.all": { "name": "Odolání proti magii (Dovednosti)", "description": "" },
-    "flags.midi-qol.magicResistance.str": { "name": "Odolání proti magii (Síla)", "description": "" },
-    "flags.midi-qol.magicResistance.wis": { "name": "Odolání proti magii (Moudrost)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all": { "name": "Zranitelnost vůči magii (Vše)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all.cha": { "name": "Zranitelnost vůči magii (Charisma)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all.con": { "name": "Zranitelnost vůči magii (Odolnost)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all.dex": { "name": "Zranitelnost vůči magii (Obratnost)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all.int": { "name": "Zranitelnost vůči magii (Inteligence)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all.str": { "name": "Zranitelnost vůči magii (Síla)", "description": "" },
-    "flags.midi-qol.magicVulnerability.all.wis": { "name": "Zranitelnost vůči magii (Moudrost)", "description": "" },
-    "flags.midi-qol.max.ability.check.all": { "name": "Maximální ověření vlastnosti (Vše)", "description": "Maximální hoditelná hodnota na hlavní k20 pro všechna ověření vlastností." },
-    "flags.midi-qol.max.ability.check.cha": { "name": "Maximální ověření vlastnosti (Charisma)", "description": "Maximální hoditelná hodnota na hlavní k20 pro všechna ověření Charismatu." },
-    "flags.midi-qol.max.ability.check.con": { "name": "Maximální ověření vlastnosti (Odolnost)", "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Odolnosti." },
-    "flags.midi-qol.max.ability.check.dex": { "name": "Maximální ověření vlastnosti (Obratnost)", "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Obratnosti." },
-    "flags.midi-qol.max.ability.check.int": { "name": "Maximální ověření vlastnosti (Inteligence)", "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Inteligence." },
-    "flags.midi-qol.max.ability.check.str": { "name": "Maximální ověření vlastnosti (Síla)", "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Síly." },
-    "flags.midi-qol.max.ability.check.wis": { "name": "Maximální ověření vlastnosti (Moudrost)", "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Moudrosti." },
-    "flags.midi-qol.max.ability.save.all": { "name": "Maximální záchranný hod (Vše)", "description": "Maximální hoditelná hodnota na hlavní k20 pro všechny záchranné hody." },
-    "flags.midi-qol.max.ability.save.cha": { "name": "Maximální záchranný hod (Charisma)", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Charismatem." },
-    "flags.midi-qol.max.ability.save.con": { "name": "Maximální záchranný hod (Odolnost)", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Odolností." },
-    "flags.midi-qol.max.ability.save.concentration": { "name": "Maximální soustředění", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody na soustředění." },
-    "flags.midi-qol.max.ability.save.dex": { "name": "Maximální záchranný hod (Obratnost)", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Obratností." },
-    "flags.midi-qol.max.ability.save.int": { "name": "Maximální záchranný hod (Inteligence)", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Inteligencí." },
-    "flags.midi-qol.max.ability.save.str": { "name": "Maximální záchranný hod (Síla)", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Silou." },
-    "flags.midi-qol.max.ability.save.wis": { "name": "Maximální záchranný hod (Moudrost)", "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Moudrostí." },
-    "flags.midi-qol.max.damage.all": { "name": "Maximální zranění (Vše)", "description": "" },
-    "flags.midi-qol.max.damage.heal": { "name": "Maximální zranění (Léčení)", "description": "" },
-    "flags.midi-qol.max.damage.msak": { "name": "Maximální zranění (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.max.damage.mwak": { "name": "Maximální zranění (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.max.damage.other": { "name": "Maximální zranění (Ostatní)", "description": "" },
-    "flags.midi-qol.max.damage.rsak": { "name": "Maximální zranění (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.max.damage.rwak": { "name": "Maximální zranění (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.max.damage.save": { "name": "Maximální zranění (Záchranný hod)", "description": "" },
-    "flags.midi-qol.max.damage.util": { "name": "Maximální zranění (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.max.skill.all": { "name": "Maximální dovednost (Vše)", "description": "Maximální hoditelné číslo na hlavní k20 pro všechna ověření dovedností." },
-    "flags.midi-qol.min.ability.check.all": { "name": "Minimální ověření vlastností (Vše)", "description": "Minimální hoditelné číslo na hlavní k20 pro všechna ověření schopností." },
-    "flags.midi-qol.min.ability.check.cha": { "name": "Minimální ověření vlastnosti (Charisma)", "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Charisma." },
-    "flags.midi-qol.min.ability.check.con": { "name": "Minimální ověření vlastnosti (Odolnost)", "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Odolnost." },
-    "flags.midi-qol.min.ability.check.dex": { "name": "Minimální ověření vlastnosti (Obratnost)", "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Obratnost." },
-    "flags.midi-qol.min.ability.check.int": { "name": "Minimální ověření vlastnosti (Inteligence)", "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Inteligence." },
-    "flags.midi-qol.min.ability.check.str": { "name": "Minimální ověření vlastnosti (Síla)", "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Síla." },
-    "flags.midi-qol.min.ability.check.wis": { "name": "Minimální ověření vlastnosti (Moudrost)", "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Moudrost." },
-    "flags.midi-qol.min.ability.save.all": { "name": "Minimální záchranný hod (Vše)", "description": "Minimální hoditelné číslo na hlavní k20 pro všechny záchranné hody." },
-    "flags.midi-qol.min.ability.save.cha": { "name": "Minimální záchranný hod (Charisma)", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Charismatem." },
-    "flags.midi-qol.min.ability.save.con": { "name": "Minimální záchranný hod (Odolnost)", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Odolností." },
-    "flags.midi-qol.min.ability.save.concentration": { "name": "Minimální soustředění", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody soustředění." },
-    "flags.midi-qol.min.ability.save.dex": { "name": "Minimální záchranný hod (Obratnost)", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Obratností." },
-    "flags.midi-qol.min.ability.save.int": { "name": "Minimální záchranný hod (Inteligence)", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Inteligencí." },
-    "flags.midi-qol.min.ability.save.str": { "name": "Minimální záchranný hod (Síla)", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Silou." },
-    "flags.midi-qol.min.ability.save.wis": { "name": "Minimální záchranný hod (Moudrost)", "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Moudrostí." },
-    "flags.midi-qol.min.damage.all": { "name": "Minimální zranění (Vše)", "description": "" },
-    "flags.midi-qol.min.damage.heal": { "name": "Minimální zranění (Léčení)", "description": "" },
-    "flags.midi-qol.min.damage.msak": { "name": "Minimální zranění (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.min.damage.mwak": { "name": "Minimální zranění (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.min.damage.other": { "name": "Minimální zranění (Ostatní)", "description": "" },
-    "flags.midi-qol.min.damage.rsak": { "name": "Minimální zranění (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.min.damage.rwak": { "name": "Minimální zranění (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.min.damage.save": { "name": "Minimální zranění (Záchranný hod)", "description": "" },
-    "flags.midi-qol.min.damage.util": { "name": "Minimální zranění (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.neverTarget": { "name": "Nikdy necílit", "description": "" },
-    "flags.midi-qol.noCritical.all": { "name": "Znemožní kritický zásah (Vše)", "description": "" },
-    "flags.midi-qol.noCritical.heal": { "name": "Znemožní kritický zásah (Léčení)", "description": "" },
-    "flags.midi-qol.noCritical.msak": { "name": "Znemožní kritický zásah (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.noCritical.mwak": { "name": "Znemožní kritický zásah (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.noCritical.other": { "name": "Znemožní kritický zásah (Ostatní)", "description": "" },
-    "flags.midi-qol.noCritical.rsak": { "name": "Znemožní kritický zásah (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.noCritical.rwak": { "name": "Znemožní kritický zásah (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.noCritical.save": { "name": "Znemožní kritický zásah (Záchranný hod)", "description": "" },
-    "flags.midi-qol.noCritical.util": { "name": "Znemožní kritický zásah (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.onUseMacroName": { "name": "", "description": "" },
-    "flags.midi-qol.optional.NAME.macroToCall": { "name": "", "description": "" },
-    "flags.midi-qol.optional.NAME.ac": { "name": "Volitelné OČ", "description": "" },
-    "flags.midi-qol.optional.NAME.activation": { "name": "Volitelná aktivace", "description": "Podmínka aktivace volitelného bonusu." },
-    "flags.midi-qol.optional.NAME.attack.all": { "name": "Volitelný bonus k útoku (Vše)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.fail.all": { "name": "Volitelné selhání útoku (Vše)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.heal": { "name": "Volitelné selhání útoku (Léčení)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.msak": { "name": "Volitelné selhání útoku (Útok magickou zbraní na blízko)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.mwak": { "name": "Volitelné selhání útoku (Útok zbraní na blízko)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.other": { "name": "Volitelné selhání útoku (Ostatní)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.rsak": { "name": "Volitelné selhání útoku (Útok magickou zbraní na dálku)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.rwak": { "name": "Volitelné selhání útoku (Útok zbraní na dálku)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.save": { "name": "Volitelné selhání útoku (Záchranný hod)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.fail.util": { "name": "Volitelné selhání útoku (Pomocná aktivita)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.attack.heal": { "name": "Volitelný bonus k útoku (Léčení)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.msak": { "name": "Volitelný bonus k útoku (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.mwak": { "name": "Volitelný bonus k útoku (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.other": { "name": "Volitelný bonus k útoku (Ostatní)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.rsak": { "name": "Volitelný bonus k útoku (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.rwak": { "name": "Volitelný bonus k útoku (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.save": { "name": "Volitelný bonus k útoku (Záchranný hod)", "description": "" },
-    "flags.midi-qol.optional.NAME.attack.util": { "name": "Volitelný bonus k útoku (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.all": { "name": "Volitelný bonus k ověření (Vše)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.cha": { "name": "Volitelný bonus k ověření (Charisma)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.con": { "name": "Volitelný bonus k ověření (Odolnost)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.dex": { "name": "Volitelný bonus k ověření (Obratnost)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.fail.all": { "name": "Volitelné selhání ověření (Vše)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.fail.cha": { "name": "Volitelné selhání ověření (Charisma)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.fail.con": { "name": "Volitelné selhání ověření (Odolnost)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.fail.dex": { "name": "Volitelné selhání ověření (Obratnost)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.fail.int": { "name": "Volitelné selhání ověření (Inteligence)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.fail.str": { "name": "Volitelné selhání ověření (Síla)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.fail.wis": { "name": "Volitelné selhání ověření (Moudrost)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.check.int": { "name": "Volitelný bonus k ověření (Inteligence)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.str": { "name": "Volitelný bonus k ověření (Síla)", "description": "" },
-    "flags.midi-qol.optional.NAME.check.wis": { "name": "Volitelný bonus k ověření (Moudrost)", "description": "" },
-    "flags.midi-qol.optional.NAME.count": { "name": "Volitelný počet", "description": "" },
-    "flags.midi-qol.optional.NAME.countAlt": { "name": "Alternativní volitelný počet", "description": "" },
-    "flags.midi-qol.optional.NAME.criticalDamage": { "name": "Volitelný kritický zásah", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.all": { "name": "Volitelné zranění (Vše)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.heal": { "name": "Volitelné zranění (Léčení)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.msak": { "name": "Volitelné zranění (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.mwak": { "name": "Volitelné zranění (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.other": { "name": "Volitelné zranění (Ostatní)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.rsak": { "name": "Volitelné zranění (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.rwak": { "name": "Volitelné zranění (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.save": { "name": "Volitelné zranění (Záchranný hod)", "description": "" },
-    "flags.midi-qol.optional.NAME.damage.util": { "name": "Volitelné zranění (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.optional.NAME.force": { "name": "Volitelná síla", "description": "Podmínka pro vynucenou aktivaci bonusu." },
-    "flags.midi-qol.optional.NAME.label": { "name": "Volitelný popisek", "description": "" },
-    "flags.midi-qol.optional.NAME.save.all": { "name": "Volitelný bonus k záchrannému hodu (Vše)", "description": "" },
-    "flags.midi-qol.optional.NAME.save.cha": { "name": "Volitelný bonus k záchrannému hodu (Charisma)", "description": "" },
-    "flags.midi-qol.optional.NAME.save.con": { "name": "Volitelný bonus k záchrannému hodu (Odolnost)", "description": "" },
-    "flags.midi-qol.optional.NAME.save.dex": { "name": "Volitelný bonus k záchrannému hodu (Obratnost)", "description": "" },
-    "flags.midi-qol.optional.NAME.save.fail.all": { "name": "Volitelné selhání záchranného hodu (Vše)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.fail.cha": { "name": "Volitelné selhání záchranného hodu (Charisma)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.fail.con": { "name": "Volitelné selhání záchranného hodu (Odolnost)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.fail.dex": { "name": "Volitelné selhání záchranného hodu (Obratnost)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.fail.int": { "name": "Volitelné selhání záchranného hodu (Inteligence)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.fail.str": { "name": "Volitelné selhání záchranného hodu (Síla)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.fail.wis": { "name": "Volitelné selhání záchranného hodu (Moudrost)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.save.int": { "name": "Volitelný bonus k záchrannému hodu (Inteligence)", "description": "" },
-    "flags.midi-qol.optional.NAME.save.str": { "name": "Volitelný bonus k záchrannému hodu (Síla)", "description": "" },
-    "flags.midi-qol.optional.NAME.save.wis": { "name": "Volitelný bonus k záchrannému hodu (Moudrost)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.acr": { "name": "Volitelný bonus k dovednosti (Akrobacie)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.all": { "name": "Volitelný bonus k dovednosti (Vše)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.ani": { "name": "Volitelný bonus k dovednosti (Ovládání zvířat)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.arc": { "name": "Volitelný bonus k dovednosti (Mystika)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.ath": { "name": "Volitelný bonus k dovednosti (Atletika)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.fail.all": { "name": "Volitelné selhání dovednosti (Vše)", "description": "Zobrazí se pouze při selhání." },
-    "flags.midi-qol.optional.NAME.skill.his": { "name": "Volitelný bonus k dovednosti (Historie)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.ins": { "name": "Volitelný bonus k dovednosti (Vhled)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.inv": { "name": "Volitelný bonus k dovednosti (Pátrání)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.itm": { "name": "Volitelný bonus k dovednosti (Zastrašování)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.med": { "name": "Volitelný bonus k dovednosti (Lékařství)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.nat": { "name": "Volitelný bonus k dovednosti (Příroda)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.per": { "name": "Volitelný bonus k dovednosti (Přesvědčování)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.prc": { "name": "Volitelný bonus k dovednosti (Vnímání)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.prf": { "name": "Volitelný bonus k dovednosti (Umění)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.rel": { "name": "Volitelný bonus k dovednosti (Náboženství)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.slt": { "name": "Volitelný bonus k dovednosti (Čachry)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.ste": { "name": "Volitelný bonus k dovednosti (Nenápadnost)", "description": "" },
-    "flags.midi-qol.optional.NAME.skill.sur": { "name": "Volitelný bonus k dovednosti (Přežití)", "description": "" },
-    "flags.midi-qol.potentCantrip": { "name": "Mocný trik", "description": "" },
-    "flags.midi-qol.range.all": { "name": "Dosah (Vše)", "description": "" },
-    "flags.midi-qol.range.heal": { "name": "Dosah (Léčení)", "description": "" },
-    "flags.midi-qol.range.msak": { "name": "Dosah (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.range.mwak": { "name": "Dosah (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.range.other": { "name": "Dosah (Ostatní)", "description": "" },
-    "flags.midi-qol.range.rsak": { "name": "Dostřel (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.range.rwak": { "name": "Dostřel (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.range.save": { "name": "Dosah (Záchranný hod)", "description": "" },
-    "flags.midi-qol.range.util": { "name": "Dosah (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.all": { "name": "Přepsání dosahu (Všechny útoky)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.heal": { "name": "Přepsání dosahu (Léčení)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.msak": { "name": "Přepsání dosahu (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.mwak": { "name": "Přepsání dosahu (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.other": { "name": "Přepsání dosahu (Ostatní)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.rsak": { "name": "Přepsání dostřelu (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.rwak": { "name": "Přepsání dostřelu (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.save": { "name": "Přepsání dosahu (Záchranný hod)", "description": "" },
-    "flags.midi-qol.rangeOverride.attack.util": { "name": "Přepsání dosahu (Užitkové)", "description": "" },
-    "flags.midi-qol.sculptSpells": { "name": "Tvarování kouzel", "description": "Předem vybrané cíle kouzel se záchrsnou automaticky uspějí a získají status \"super-saver\"." },
-    "flags.midi-qol.semiSuperSaver.all": { "name": "Poloviční Super-saver (Vše)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.semiSuperSaver.cha": { "name": "Poloviční Super-saver (Charisma)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.semiSuperSaver.con": { "name": "Poloviční Super-saver (Odolnost)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.semiSuperSaver.dex": { "name": "Poloviční Super-saver (Obratnost)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.semiSuperSaver.int": { "name": "Poloviční Super-saver (Inteligence)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.semiSuperSaver.str": { "name": "Poloviční Super-saverr (Síla)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.semiSuperSaver.wis": { "name": "Poloviční Super-saver (Moudrost)", "description": "Při úspěšné záchraně žádné zranění." },
-    "flags.midi-qol.sharpShooter": { "name": "Ostrostřelec", "description": "" },
-    "flags.midi-qol.success.attack.all": { "name": "Úspěch (Všechny útoky)", "description": "" },
-    "flags.midi-qol.success.attack.heal": { "name": "Úspěch (Léčení)", "description": "" },
-    "flags.midi-qol.success.attack.msak": { "name": "Úspěch (Útok magickou zbraní na blízko)", "description": "" },
-    "flags.midi-qol.success.attack.mwak": { "name": "Úspěch (Útok zbraní na blízko)", "description": "" },
-    "flags.midi-qol.success.attack.other": { "name": "Úspěch (Ostatní)", "description": "" },
-    "flags.midi-qol.success.attack.rsak": { "name": "Úspěch (Útok magickou zbraní na dálku)", "description": "" },
-    "flags.midi-qol.success.attack.rwak": { "name": "Úspěch (Útok zbraní na dálku)", "description": "" },
-    "flags.midi-qol.success.attack.save": { "name": "Úspěch (Záchranný hod)", "description": "" },
-    "flags.midi-qol.success.attack.util": { "name": "Úspěch (Pomocná aktivita)", "description": "" },
-    "flags.midi-qol.superSaver.all": { "name": "Super-saver (Vše)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.superSaver.cha": { "name": "Super-saver (Charisma)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.superSaver.con": { "name": "Super-saver (Odolnost)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.superSaver.dex": { "name": "Super-saver (Obratnost)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.superSaver.int": { "name": "Super-saver (Inteligence)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.superSaver.str": { "name": "Super-saver (Síla)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.superSaver.wis": { "name": "Super-saver (Moudrost)", "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." },
-    "flags.midi-qol.uncanny-dodge": { "name": "Neuvěřitelné uhýbání", "description": "" }
+    "flags.midi-qol.absorption.acid": { 
+      "name": "Absorpce kyseliny", 
+      "description": "Přeměňuje utržené zranění kyselinou na léčení."
+    },
+    "flags.midi-qol.absorption.bludgeoning": {
+      "name": "Absorpce drtivého zranění",
+      "description": "Přeměňuje utržené drtivé zranění na léčení."
+    },
+    "flags.midi-qol.absorption.cold": {
+      "name": "Absorpce chladu",
+      "description": "Přeměňuje utržené chladné zranění na léčení."
+    },
+    "flags.midi-qol.absorption.fire": {
+      "name": "Absorpce ohně",
+      "description": "Přeměňuje utržené ohnivé zranění na léčení."
+    },
+    "flags.midi-qol.absorption.force": {
+      "name": "Absorpce silového zranění",
+      "description": "Přeměňuje utržené silové zranění na léčení."
+    },
+    "flags.midi-qol.absorption.lightning": {
+      "name": "Absorpce blesku",
+      "description": "Přeměňuje utržené bleskové zranění na léčení."
+    },
+    "flags.midi-qol.absorption.midi-none": {
+      "name": "Žádná absorpce",
+      "description": ""
+    },
+    "flags.midi-qol.absorption.necrotic": {
+      "name": "Absorpce nekrotického zranění",
+      "description": "Přeměňuje utržené nekrotické zranění na léčení."
+    },
+    "flags.midi-qol.absorption.none": {
+      "name": "Žádná absorpce",
+      "description": ""
+    },
+    "flags.midi-qol.absorption.piercing": {      
+      "name": "Absorpce bodného zranění",
+      "description": "Přeměňuje utržené bodné zranění na léčení."
+    },
+    "flags.midi-qol.absorption.poison": {
+      "name": "Absorpce jedu",
+      "description": "Přeměňuje utržené zranění jedem na léčení."
+    },
+    "flags.midi-qol.absorption.psychic": {
+      "name": "Absorpce psychického zranění",
+      "description": "Přeměňuje utržené psychické zranění na léčení."
+    },
+    "flags.midi-qol.absorption.radiant": {
+      "name": "Absorpce zářivého zranění",
+      "description": "Přeměňuje utržené zářivé zranění na léčení."
+    },
+    "flags.midi-qol.absorption.slashing": {
+      "name": "Absorpce sečného zranění",
+      "description": "Přeměňuje utržené sečné zranění na léčení."
+    },
+    "flags.midi-qol.absorption.thunder": {
+      "name": "Absorpce hromu",
+      "description": "Přeměňuje utržené hromové zranění na léčení."
+    },
+    "flags.midi-qol.advantage.ability.all": {
+      "name": "Výhoda na všechny vlastnosti",
+      "description": "Výhoda na všechna ověření, záchranné hody a hody na dovednosti."
+    },
+    "flags.midi-qol.advantage.ability.check.all": {
+      "name": "Výhoda na všechna ověření",
+      "description": "Výhoda na všechna ověření a hody na dovednosti."
+    },
+    "flags.midi-qol.advantage.ability.check.cha": {
+      "name": "Výhoda na Charisma",
+      "description": "Výhoda na hod na Charisma."
+    },
+    "flags.midi-qol.advantage.ability.check.con": {
+      "name": "Výhoda na Odolnost",
+      "description": "Výhoda na hod na Odolnost."
+    },
+    "flags.midi-qol.advantage.ability.check.dex": {
+      "name": "Výhoda na Obratnost",
+      "description": "Výhoda na hod na Obratnost."
+    },
+    "flags.midi-qol.advantage.ability.check.int": {
+      "name": "Výhoda na Inteligenci",
+      "description": "Výhoda na hod na Inteligenci."
+    },
+    "flags.midi-qol.advantage.ability.check.str": {
+      "name": "Výhoda na Sílu",
+      "description": "Výhoda na hod na Sílu."
+    },
+    "flags.midi-qol.advantage.ability.check.wis": {
+      "name": "Výhoda na Moudrost",
+      "description": "Výhoda na hod na Moudrost."
+    },
+    "flags.midi-qol.advantage.ability.save.all": {
+      "name": "Výhoda na všechny záchranné hody",
+      "description": "Výhoda na všechny záchranné hody."
+    },
+    "flags.midi-qol.advantage.ability.save.cha": {
+      "name": "Výhoda na záchranné hody na Charisma",
+      "description": "Výhoda na záchranný hod Charismatem."
+    },
+    "flags.midi-qol.advantage.ability.save.con": {
+      "name": "Výhoda na záchranné hody na Odolnost",
+      "description": "Výhoda na záchranný hod Odolností."
+    },
+    "flags.midi-qol.advantage.ability.save.dex": {
+      "name": "Výhoda na záchranné hody na Obratnost",
+      "description": "Výhoda na záchranný hod Obratností."
+    },
+    "flags.midi-qol.advantage.ability.save.int": {
+      "name": "Výhoda na záchranné hody na Inteligence",
+      "description": "Výhoda na záchranný hod Inteligencí."
+    },
+    "flags.midi-qol.advantage.ability.save.str": {
+      "name": "Výhoda na záchranné hody na Síla",
+      "description": "Výhoda na záchranný hod Silou."
+    },
+    "flags.midi-qol.advantage.ability.save.wis": {
+      "name": "Výhoda na záchranné hody na Moudrost",
+      "description": "Výhoda na záchranný hod Moudrostí."
+    },
+    "flags.midi-qol.advantage.all": {
+      "name": "Výhoda na vše",
+      "description": "Výhoda na všechny hody k20."
+    },
+    "flags.midi-qol.advantage.attack.all": {
+      "name": "Výhoda na všechny útoky",
+      "description": "Výhoda na všechny typy útoků (zbraněmi, kouzely i další)."
+    },
+    "flags.midi-qol.advantage.attack.cha": {
+      "name": "Výhoda na útoky Charismatem",
+      "description": "Výhoda na útoky využívající Charisma."
+    },
+    "flags.midi-qol.advantage.attack.con": {
+      "name": "Výhoda na útoky Odolností",
+      "description": "Výhoda na útoky využívající Odolnost."
+    },
+    "flags.midi-qol.advantage.attack.dex": {
+      "name": "Výhoda na útoky Obratností",
+      "description": "Výhoda na útoky využívající Obratnost."
+    },
+    "flags.midi-qol.advantage.attack.heal": {
+      "name": "Výhoda na útoky léčením",
+      "description": ""
+    },
+    "flags.midi-qol.advantage.attack.int": {
+      "name": "Výhoda na útoky Inteligencí",
+      "description": "Výhoda na útoky využívající Inteligenci."
+    },
+    "flags.midi-qol.advantage.attack.msak": {
+      "name": "Výhoda na útoky kouzlem na blízko",
+      "description": "Výhoda na útoky využívající kouzlo na blízko."
+    },
+    "flags.midi-qol.advantage.attack.mwak": {
+      "name": "Výhoda na útoky zbraní na blízko",
+      "description": "Výhoda na útoky využívající zbraň na blízko."
+    },
+    "flags.midi-qol.advantage.attack.other": {
+      "name": "Výhoda na oststní útoky",
+      "description": ""
+    },
+    "flags.midi-qol.advantage.attack.rsak": {
+      "name": "Výhoda na útoky kouzlem na dálku",
+      "description": "Výhoda na útoky využívající kouzlo na dálku."
+    },
+    "flags.midi-qol.advantage.attack.rwak": {
+      "name": "Výhoda na útoky zbraní na dálku",
+      "description": "Výhoda na útoky využívající zbraň na dálku."
+    },
+    "flags.midi-qol.advantage.attack.save": {
+      "name": "Výhoda na útoky se záchranou",
+      "description": "Výhoda na všechny útoky využívající akci typu záchrany."
+    },
+    "flags.midi-qol.advantage.attack.str": {
+      "name": "Výhoda na útoky Silou",
+      "description": "Výhoda na útoky využívající Sílu."
+    },
+    "flags.midi-qol.advantage.attack.util": {
+      "name": "Výhoda na útoky pomocnou aktivitou",
+      "description": "Výhoda na všechny útoky položek označených jako pomocná aktivita."
+    },
+    "flags.midi-qol.advantage.attack.wis": {
+      "name": "Výhoda na útoky Moudrostí",
+      "description": "Výhoda na útoky využívající Moudrost."
+    },
+    "flags.midi-qol.fail.disadvantage.heavy": {
+      "name": "Nevýhoda kvůli těžkém zbroji",
+      "description": "Nevýhoda na Nenápadnost kvůli těžké zbroji."
+    },
+    "flags.midi-qol.": {
+      "name": "MIDI-QoL Příznaky",
+      "description": ""
+    },
+    "flags.midi-qol.DR.msak": {
+      "name": "Snížení zranění (msak) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.mwak": {
+      "name": "Snížení zranění (mwak) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.non-adamant": {
+      "name": "Snížení zranění (neadamantinové) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.non-magical": {
+      "name": "Snížení zranění (nemagické) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.non-magical-physical": {
+      "name": "Snížení zranění (nemagické fyzické) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.non-physical": {
+      "name": "Snížení zranění (nefyzické) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.non-silver": {
+      "name": "Snížení zranění (nestříbrné) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.other": {
+      "name": "Snížení zranění (ostatní) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.rsak": {
+      "name": "Snížení zranění (rsak) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.rwak": {
+      "name": "Snížení zranění (rwak) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.save": {
+      "name": "Snížení zranění (záchranný hod) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.util": {
+      "name": "Snížení zranění (pomocná aktivita) (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.acid": {
+      "name": "Snížení zranění kyselinou (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.all": {
+      "name": "Snížení veškerého zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.bludgeoning": {
+      "name": "Snížení zranění drtivým útokem (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.cold": {
+      "name": "Snížení zranění chladem (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.final": {
+      "name": "Konečné snížení zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.fire": {
+      "name": "Snížení zranění ohněm (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.force": {
+      "name": "Snížení silového zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.healing": {
+      "name": "Snížení léčení (Zastaralé)",
+      "description": "PPoužij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.lightning": {
+      "name": "Snížení zranění bleskem (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.midi-none": {
+      "name": "Žádné snížení zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.necrotic": {
+      "name": "Snížení zranění nekrotickou energií (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.none": {
+      "name": "Žádné snížení zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.piercing": {
+      "name": "Snížení zranění bodným útokem (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.poison": {
+      "name": "Snížení zranění jedem (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.psychic": {
+      "name": "Snížení psychického zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.radiant": {
+      "name": "Snížení zářivého zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.slashing": {
+      "name": "Snížení zranění sečným útokem (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.temphp": {
+      "name": "Snížení zranění dočasnými životy (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.DR.thunder": {
+      "name": "Snížení hromového zranění (Zastaralé)",
+      "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
+    },
+    "flags.midi-qol.OverTime": {
+      "name": "Efekty v čase",
+      "description": "" 
+    },
+    "flags.midi-qol.advantage.concentration": {
+      "name": "Výhoda (Soustředění)",
+      "description": "Výhoda při ověření soustředění."
+    },
+    "flags.midi-qol.advantage.deathSave": {
+      "name": "Výhoda (Záchrana před smrtí)",
+      "description": "Výhoda při záchranném hodu proti smrti."
+    },
+    "flags.midi-qol.advantage.skill.acr": {
+      "name": "Výhoda (Akrobacie)",
+      "description": "Výhoda při ověření Akrobacie."
+    },
+    "flags.midi-qol.advantage.skill.all": {
+      "name": "Výhoda (Všechny dovednosti)",
+      "description": "Výhoda při všech ověřeních dovedností."
+    },
+    "flags.midi-qol.advantage.skill.ani": {
+      "name": "Výhoda (Ovládání zvířat)",
+      "description": "Výhoda při ověření Ovládání zvířat."
+    },
+    "flags.midi-qol.advantage.skill.arc": {
+      "name": "Výhoda (Mystika)",
+      "description": "Výhoda při ověření Mystiky."
+    },
+    "flags.midi-qol.advantage.skill.ath": {
+      "name": "Výhoda (Atletika)",
+      "description": "Výhoda při ověření Atletiky."
+    },
+    "flags.midi-qol.advantage.skill.dec": {
+      "name": "Výhoda (Klamání)",
+      "description": "Výhoda při ověření Klamání."
+    },
+    "flags.midi-qol.advantage.skill.his": {
+      "name": "Výhoda (Historie)",
+      "description": "Výhoda při ověření Historie."
+    },
+    "flags.midi-qol.advantage.skill.ins": {
+      "name": "Výhoda (Vhled)",
+      "description": "Výhoda při ověření Vhledu."
+    },
+    "flags.midi-qol.advantage.skill.inv": {
+      "name": "Výhoda (Pátrání)",
+      "description": "Výhoda při ověření Pátrání."
+    },
+    "flags.midi-qol.advantage.skill.itm": {
+      "name": "Výhoda (Zastrašování)",
+      "description": "Výhoda při ověření Zastrašování."
+    },
+    "flags.midi-qol.advantage.skill.med": {
+      "name": "Výhoda (Lékařství)",
+      "description": "Výhoda při ověření Lékařství."
+    },
+    "flags.midi-qol.advantage.skill.nat": {
+      "name": "Výhoda (Příroda)",
+      "description": "Výhoda při ověření Přírody."
+    },
+    "flags.midi-qol.advantage.skill.per": {
+      "name": "Výhoda (Přesvědčování)",
+      "description": "Výhoda při ověření Přesvědčování."
+    },
+    "flags.midi-qol.advantage.skill.prc": {
+      "name": "Výhoda (Vnímání)",
+      "description": "Výhoda při ověření Vnímání."
+    },
+    "flags.midi-qol.advantage.skill.prf": {
+      "name": "Výhoda (Umění)",
+      "description": "Výhoda při ověření Umění."
+    },
+    "flags.midi-qol.advantage.skill.rel": {
+      "name": "Výhoda (Náboženství)",
+      "description": "Výhoda při ověření Náboženství."
+    },
+    "flags.midi-qol.advantage.skill.slt": {
+      "name": "Výhoda (Čachry)",
+      "description": "Výhoda při ověření Čachrů."
+    },
+    "flags.midi-qol.advantage.skill.ste": {
+      "name": "Výhoda (Nenápadnost)",
+      "description": "Výhoda při ověření Nenápadnosti."
+    },
+    "flags.midi-qol.advantage.skill.sur": {
+      "name": "Výhoda (Přežití)",
+      "description": "Výhoda při ověření Přežití."
+    },
+    "flags.midi-qol.carefulSpells": {
+      "name": "Opatrná kouzla",
+      "description": "Předem vybrané cíle kouzel se záchranami automaticky uspějí."
+    },
+    "flags.midi-qol.concentrationSaveBonus": {
+      "name": "Bonus k záchraně soustředění",
+      "description": ""
+    },
+    "flags.midi-qol.critical.all": {
+      "name": "Kritický zásah (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.heal": {
+      "name": "Kritický zásah (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.msak": {
+      "name": "Kritický zásah (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.mwak": {
+      "name": "Kritický zásah (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.other": {
+      "name": "Kritický zásah (Jiné)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.rsak": {
+      "name": "Kritický zásah (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.rwak": {
+      "name": "Kritický zásah (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.save": {
+      "name": "Kritický zásah (Záchrana)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.util": {
+      "name": "Kritický zásah (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.damage.reroll-kh": {
+      "name": "Přehoz zranění (Ponechat nejvyšší)",
+      "description": ""
+    },
+    "flags.midi-qol.damage.reroll-kl": {
+      "name": "Přehoz zranění (Ponechat nejnižší)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.all": {
+      "name": "Nevýhoda (Všechny vlastnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.all": {
+      "name": "Nevýhoda (Všechna ověření vlastností)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.cha": {
+      "name": "Nevýhoda (Ověření Charismatu)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.con": {
+      "name": "Nevýhoda (Ověření Odolnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.dex": {
+      "name": "Nevýhoda (Ověření Obratnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.int": {
+      "name": "Nevýhoda (Ověření Inteligence)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.str": {
+      "name": "Nevýhoda (Ověření Síly)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.wis": {
+      "name": "Nevýhoda (Ověření Moudrosti)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.all": {
+      "name": "Nevýhoda (Všechny záchranné hody)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.cha": {
+      "name": "Nevýhoda (Záchranný hod na Charisma)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.con": {
+      "name": "Nevýhoda (Záchranný hod na Odolnost)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.dex": {
+      "name": "Nevýhoda (Záchranný hod na Obratnost)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.int": {
+      "name": "Nevýhoda (Záchranný hod na Inteligenci)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.str": {
+      "name": "Nevýhoda (Záchranný hod na Sílu)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.wis": {
+      "name": "Nevýhoda (Záchranný hod na Moudrost)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.all": {
+      "name": "Nevýhoda na všechny hody",
+      "description": "Nevýhoda na všechny hody k20."
+    },
+    "flags.midi-qol.disadvantage.attack.all": {
+      "name": "Nevýhoda (Všechny útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.cha": {
+      "name": "Nevýhoda (Útok Charismatem)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.con": {
+      "name": "Nevýhoda (Útok Odolností)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.dex": {
+      "name": "Nevýhoda (Útok Obratností)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.heal": {
+      "name": "Nevýhoda (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.int": {
+      "name": "Nevýhoda (Útok Inteligencí)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.msak": {
+      "name": "Nevýhoda (Útoky na blízko kouzlem)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.mwak": {
+      "name": "Nevýhoda (Útoky na blízko zbraní)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.other": {
+      "name": "Nevýhoda (Jiné útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.rsak": {
+      "name": "Nevýhoda (Útok na dálku kouzlem)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.rwak": {
+      "name": "Nevýhoda (Útok na dálku zbraní)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.save": {
+      "name": "Nevýhoda (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.util": {
+      "name": "Nevýhoda (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.wis": {
+      "name": "Nevýhoda (Útok Moudrostí)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.concentration": {
+      "name": "Nevýhoda (Soustředění)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.deathSave": {
+      "name": "Nevýhoda (Záchrana proti smrti)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.acr": {
+      "name": "Nevýhoda (Akrobacie)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.all": {
+      "name": "Nevýhoda (Všechny dovednosti)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ani": {
+      "name": "Nevýhoda (Ovládání zvířat)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.arc": {
+      "name": "Nevýhoda (Mystika)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ath": {
+      "name": "Nevýhoda (Atletika)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.dec": {
+      "name": "Nevýhoda (Klamání)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.his": {
+      "name": "Nevýhoda (Historie)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ins": {
+      "name": "Nevýhoda (Vhled)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.inv": {
+      "name": "Nevýhoda (Vyšetřování)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.itm": {
+      "name": "Nevýhoda (Zastrašování)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.med": {
+      "name": "Nevýhoda (Lékařství)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.nat": {
+      "name": "Nevýhoda (Příroda)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.per": {
+      "name": "Nevýhoda (Přesvědčování)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.prc": {
+      "name": "Nevýhoda (Vnímání)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.prf": {
+      "name": "Nevýhoda (Umění)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.rel": {
+      "name": "Nevýhoda (Náboženství)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.slt": {
+      "name": "Nevýhoda (Čachry)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ste": {
+      "name": "Nevýhoda (Nenápadnost)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.sur": {
+      "name": "Nevýhoda (Přežití)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.all": {
+      "name": "Selhání (Všechny vlastnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.all": {
+      "name": "Selhání (Všechna ověřování vlastností)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.cha": {
+      "name": "Selhání (Ověření Charismatu)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.con": {
+      "name": "Selhání (Ověření Odolnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.dex": {
+      "name": "Selhání (Ověření Obratnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.int": {
+      "name": "Selhání (Ověření Inteligence)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.str": {
+      "name": "Selhání (Ověření Síly)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.wis": {
+      "name": "Selháníh (Ověření Moudrosti)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.all": {
+      "name": "Selhání (Všechny záchranné hody)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.cha": {
+      "name": "Selhání (Záchranný hod na Charisma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.con": {
+      "name": "Selhání (Záchranný hod na Odolnost)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.dex": {
+      "name": "Selhání (Záchranný hod na Obratnost)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.int": {
+      "name": "Selhání (Záchranný hod na Inteligenci)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.str": {
+      "name": "Selhání (Záchranný hod na Sílu)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.wis": {
+      "name": "Selhání (Záchranný hod na Moudrost)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.all": {
+      "name": "Selhání (Všechny akce)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.all": {
+      "name": "Selhání (Všechny útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.heal": {
+      "name": "Selhání (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.msak": {
+      "name": "Selhání (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.mwak": {
+      "name": "Selhání (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.other": {
+      "name": "Selhání (Ostatní útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.rsak": {
+      "name": "Selhání (Útok kouzem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.rwak": {
+      "name": "Selhání (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.save": {
+      "name": "Selhání (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.util": {
+      "name": "Selhání (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.all": {
+      "name": "Kritické selhání (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.heal": {
+      "name": "Kritické selhání (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.msak": {
+      "name": "Kritické selhání (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.mwak": {
+      "name": "Kritické selhání (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.other": {
+      "name": "Kritické selhání (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.rsak": {
+      "name": "Kritické selhání (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.rwak": {
+      "name": "Kritické selhání (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.save": {
+      "name": "Kritické selhání (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.util": {
+      "name": "Kritické selhání (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.acr": {
+      "name": "Selhání (Akrobacie)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.all": {
+      "name": "Selhání (Všechny dovednosti)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ani": {
+      "name": "Selhání (Ovládání zvířat)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.arc": {
+      "name": "Selhání (Mystika)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ath": {
+      "name": "Selhání (Atletika)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.dec": {
+      "name": "Selhání (Klamání)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.his": {
+      "name": "Selhání (Historie)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ins": {
+      "name": "Selhání (Vhled)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.inv": {
+      "name": "Selhání (Vyšetřování)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.itm": {
+      "name": "Selhání (Zastrašování)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.med": {
+      "name": "Selhání (Lékařství)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.nat": {
+      "name": "Selhání (Příroda)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.per": {
+      "name": "Selhání (Přesvědčování)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.prc": {
+      "name": "Selhání (Vnímání)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.prf": {
+      "name": "Selhání (Umění)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.rel": {
+      "name": "Selhání (Náboženství)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.slt": {
+      "name": "Selhání (Čachry)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ste": {
+      "name": "Selhání (Nenápadnost)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.sur": {
+      "name": "Selhání (Přežití)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.spell.material": {
+      "name": "Selhání (Materiální složka)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.spell.somatic": {
+      "name": "Selhání (Pohybová složka)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.spell.vocal": {
+      "name": "Selhání (Verbální složka)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.all": {
+      "name": "Zajistí Výhodu (Všechny útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.heal": {
+      "name": "Zajistí Výhodu (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.msak": {
+      "name": "Zajistí Výhodu (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.mwak": {
+      "name": "Zajistí Výhodu (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.other": {
+      "name": "Zajistí Výhodu (Ostatní útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.rsak": {
+      "name": "Zajistí Výhodu (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.rwak": {
+      "name": "Zajistí Výhodu (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.save": {
+      "name": "Zajistí Výhodu (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.util": {
+      "name": "Zajistí Výhodu (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.all": {
+      "name": "Zajistí Výhodu (Všechny hody na ověření)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.cha": {
+      "name": "Zajistí Výhodu (Ověření Charismatu)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.con": {
+      "name": "Zajistí Výhodu (Ověření Odolnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.dex": {
+      "name": "Zajistí Výhodu (Ověření Obratnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.int": {
+      "name": "Zajistí Výhodu (Ověření Inteligence)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.str": {
+      "name": "Zajistí Výhodu (Ověření Síly)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.wis": {
+      "name": "Zajistí Výhodu (Ověření Moudrosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.all": {
+      "name": "Zajistí Výhodu (Všechny záchranné hody)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.cha": {
+      "name": "Zajistí Výhodu (Záchranný hod na Charisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.con": {
+      "name": "Zajistí Výhodu (Záchranný hod na Odolnost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.dex": {
+      "name": "Zajistí Výhodu (Záchranný hod na Obratnost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.int": {
+      "name": "Zajistí Výhodu (Záchranný hod na Inteligenci)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.str": {
+      "name": "Zajistí Výhodu (Záchranný hod na Sílu)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.wis": {
+      "name": "Zajistí Výhodu (Záchranný hod na Moudrost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.all": {
+      "name": "Zajistí Výhodu (Všechny dovednosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.cha": {
+      "name": "Zajistí Výhodu (Dovednosti založené na Charismatu)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.con": {
+      "name": "Zajistí Výhodu (Dovednosti založené na Odolnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.dex": {
+      "name": "Zajistí Výhodu (Dovednosti založené na Obratnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.int": {
+      "name": "Zajistí Výhodu (Dovednosti založené na Inteligenci)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.str": {
+      "name": "Zajistí Výhodu (Dovednosti založené na Síle)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.wis": {
+      "name": "Zajistí Výhodu (Dovednosti založené na Moudrosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.all": {
+      "name": "Zajistí bonus k útoku (Všechny)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.heal": {
+      "name": "Zajistí bonus k útoku (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.msak": {
+      "name": "Zajistí bonus k útoku (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.mwak": {
+      "name": "Zajistí bonus k útoku (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.other": {
+      "name": "Zajistí bonus k útoku (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.rsak": {
+      "name": "Zajistí bonus k útoku (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.rwak": {
+      "name": "Zajistí bonus k útoku (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.save": {
+      "name": "Zajistí bonus k útoku (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.util": {
+      "name": "Zajistí bonus k útoku (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.fail.all": {
+      "name": "Zajistí selhání útoku (Všechny)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.all": {
+      "name": "Zajiatí úspěch útoku (Všechny)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.heal": {
+      "name": "Zajiatí úspěch útoku (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.msak": {
+      "name": "Zajiatí úspěch útoku (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.mwak": {
+      "name": "Zajiatí úspěch útoku (Útok zbraní na blízko",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.other": {
+      "name": "Zajiatí úspěch útoku (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.rsak": {
+      "name": "Zajiatí úspěch útoku (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.rwak": {
+      "name": "Zajiatí úspěch útoku (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.save": {
+      "name": "Zajiatí úspěch útoku (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.util": {
+      "name": "Zajiatí úspěch útoku (Pomocná aktivita)",
+      "description": ""
+    },    
+    "flags.midi-qol.grants.critical.all": {
+      "name": "Zajistí kritický zásah (Všechny)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.heal": {
+      "name": "Zajistí kritický zásah (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.msak": {
+      "name": "Zajistí kritický zásah (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.mwak": {
+      "name": "Zajistí kritický zásah (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.other": {
+      "name": "Zajistí kritický zásah (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.range": {
+      "name": "Zajistí kritický zásah (Útok na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.rsak": {
+      "name": "Zajistí kritický zásah (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.rwak": {
+      "name": "Zajistí kritický zásah (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.save": {
+      "name": "Zajistí kritický zásah (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.util": {
+      "name": "Zajistí kritický zásah (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.criticalThreshold": {
+      "name": "Práh kritického zásahu",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.all": {
+      "name": "Zajistí Nevýhodu (Všechny útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.heal": {
+      "name": "Zajistí Nevýhodu (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.msak": {
+      "name": "Zajistí Nevýhodu (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.mwak": {
+      "name": "Zajistí Nevýhodu (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.other": {
+      "name": "Zajistí Nevýhodu (Ostatní útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.rsak": {
+      "name": "Zajistí Nevýhodu (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.rwak": {
+      "name": "Zajistí Nevýhodu (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.save": {
+      "name": "Zajistí Nevýhodu (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.util": {
+      "name": "Zajistí Nevýhodu (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.all": {
+      "name": "Zajistí Nevýhodu (Všechny hody na ověření)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.cha": {
+      "name": "Zajistí Nevýhodu (Ověření Charismatu)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.con": {
+      "name": "Zajistí Nevýhodu (Ověření Odolnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.dex": {
+      "name": "Zajistí Nevýhodu (Ověření Obratnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.int": {
+      "name": "Zajistí Nevýhodu (Ověření Inteligence)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.str": {
+      "name": "Zajistí Nevýhodu (Ověření Síly)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.wis": {
+      "name": "Zajistí Nevýhodu (Ověření Moudrosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.all": {
+      "name": "Zajistí Nevýhodu (Všechny záchranné hody)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.cha": {
+      "name": "Zajistí Nevýhodu (Záchranný hod na Charisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.con": {
+      "name": "Zajistí Nevýhodu (Záchranný hod na Odolnost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.dex": {
+      "name": "Zajistí Nevýhodu (Záchranný hod na Obratnost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.int": {
+      "name": "Zajistí Nevýhodu (Záchranný hod na Inteligenci)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.str": {
+      "name": "Zajistí Nevýhodu (Záchranný hod na Sílu)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.wis": {
+      "name": "Zajistí Nevýhodu (Záchranný hod na Moudrost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.all": { 
+    "name": "Zajistí Nevýhodu (Všechny dovednosti)",
+    "description": ""
+  },
+    "flags.midi-qol.grants.disadvantage.skill.cha": {
+      "name": "Zajistí Nevýhodu (Dovednosti založené na Charismatu)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.con": {
+      "name": "Zajistí Nevýhodu (Dovednosti založené na Odolnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.dex": {
+      "name": "Zajistí Nevýhodu (Dovednosti založené na Obratnosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.int": {
+      "name": "Zajistí Nevýhodu (Dovednosti založené na Inteligenci)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.str": {
+      "name": "Zajistí Nevýhodu (Dovednosti založené na Síle)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.wis": {
+      "name": "Zajistí Nevýhodu (Dovednosti založené na Moudrosti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.all": {
+      "name": "Zajistí selhání Výhody (Všechny útoky)",
+      "description": ""
+    },
+    "flags.midi-qol.noAdvantage.attack.all": {
+      "name": "Neposkytne Výhodu (Všechny útoky)",
+      "description": "Jakýkoli útok proti cíli nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.heal": {
+      "name": "Neposkytne Výhodu (Léčení)",
+      "description": "Jakýkoli útok léčením proti cíli nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.msak": {
+      "name": "Neposkytne Výhodu (Útok kouzlem na blízko)",
+      "description": "Jakýkoli útok kouzlem na blízko proti cíli nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.mwak": {
+      "name": "Neposkytne Výhodu (Útok zbraní na blízko)",
+      "description": "Jakýkoli útok zbraní na blízko proti cíli nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.rsak": {
+      "name": "Neposkytne Výhodu (Útok kouzlem na dálku)",
+      "description": "Jakýkoli útok kouzlem na dálku proti cíli nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.rwak": {
+      "name": "Neposkytne Výhodu (Útok zbraní na dálku)",
+      "description": "Jakýkoli útok zbraní na dálku proti cíli nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.save": {
+      "name": "Neposkytne Výhodu (Záchrana)",
+      "description": "Žádný záchranný hod vynucený tímto aktérem nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.check": {
+      "name": "Neposkytne Výhodu (Ověření vlastnosti)",
+      "description": "Žádné ověření vlastnosti vynucené tímto aktérem nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.{noAdvantage.attack.skill": {
+      "name": "Neposkytne Výhodu (Dovednost)",
+      "description": "Žádný hod na dovednost vynucený tímto aktérem nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.msak": {
+      "name": "Zajistí selhání Výhody (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.mwak": {
+      "name": "Zajistí selhání Výhody (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.rsak": {
+      "name": "Zajistí selhání Výhody (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.rwak": {
+      "name": "Zajistí selhání Výhody (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.save": {
+      "name": "Zajistí selhání Výhody (Záchranný hod)",
+      "description": "Žádný záchranný hod vynucený tímto aktérem nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.check": {
+      "name": "Neposkytne Výhodu (Ověření)",
+      "description": "Žádné ověření vynucené tímto aktérem nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.skill": {
+      "name": "Neposkytne Výhodu (Hod na dovednost)",
+      "description": "Žádné ověření dovednosti vynucené tímto aktérem nebude mít Výhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.all": {
+      "name": "Neposkytne Nevýhodu (Všechny útoky)",
+      "description": "Žádný hod na útok proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.noDisadvantage.attack.all": {
+      "name": "Neposkytne Nevýhodu (Všechny útoky)",
+      "description": "Žádný hod na útok proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.msak": {
+      "name": "Neposkytne Nevýhodu (Útok kouzlem na blízko)",     
+      "description": "Žádný útok kouzlem na blízko proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.noDisadvantage.attack.msak": {
+      "name": "Neposkytne Nevýhodu (Útok kouzlem na blízko)",
+      "description": "Žádný útok kouzlem na blízko proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.mwak": {
+      "name": "Neposkytne Nevýhodu (Útok zbraní na blízko)",
+      "description": "Žádný útok zbraní na blízko proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.NoDisadvantage.attack.mwak": {
+      "name": "Neposkytne Nevýhodu (Útok zbraní na blízko)",
+      "description": "Žádný útok zbraní na blízko proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.rsak": {
+      "name": "Neposkytne Nevýhodu (Útok kouzlem na dálku)",
+      "description": "Žádný útok kouzlem na dálku proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.NoDisadvantage.attack.rsak": {
+      "name": "Neposkytne Nevýhodu (Útok kouzlem na dálku)",
+      "description": "Žádný útok kouzlem na dálku proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.rwak": {
+      "name": "Neposkytne Nevýhodu (Útok zbraní na dálku)",
+      "description": "Žádný útok zbraní na dálku proti cíli nebude mít Nevýhodu"
+    },
+      "flags.midi-qol.grants.noDisadvantage.attack.rwak": {
+        "name": "Neposkytne Nevýhodu (Útok zbraní na dálku)",
+        "description": "Žádný útok zbraní na dálku proti cíli nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.save": {
+      "name": "Neposkytne Nevýhodu (Záchranný hod)",
+      "description": "Žádný záchranný hod vynucený tímto aktérem nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.noDisadvantage.attack.save": {
+      "name": "Neposkytne Nevýhodu (Záchranný hod)",
+      "description": "Žádný záchranný hod vynucený tímto aktérem nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.check": {
+      "name": "Neposkytne Nevýhodu (Ověření)",
+      "description": "Žádné ověření vlastnoti vynucené tímto aktérem nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.noDisadvantage.attack.check": {
+      "name": "Neposkytne Nevýhodu (Pomocná aktivita)",
+      "description": "Žádné ověření vlastnoti vynucené tímto aktérem nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.skill": {
+      "name": "Neposkytne Nevýhodu (Dovednost)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noDisadvantage.attack.skill": {
+      "name": "Neposkytne Nevýhodu (Dovednost)",
+      "description": "Žádné ověření dovednosti vynucené tímto aktérem nebude mít Nevýhodu"
+    },
+    "flags.midi-qol.grants.max.damage.all": {
+      "name": "Zajistí maximální zranění (Vše)",
+      "description": "Všechny hody na zásah způsobí maximální zranění"
+    },
+    "flags.midi-qol.grants.max.damage.heal": {
+      "name": "Zajistí maximální zranění (Léčení)",
+      "description": "Všechny hody na léčení způsobí maximální léčení"
+    },
+    "flags.midi-qol.grants.max.damage.msak": {
+      "name": "Zajistí maximální zranění (Útok kouzlem na blízko)",
+      "description": "Všechny útoky kouzlem způsobí maximální zranění"
+    },
+    "flags.midi-qol.grants.max.damage.mwak": {
+      "name": "Zajistí maximální zranění (Útok zbraní na blízko)",
+      "description": "Všechny útoky zbraní na blízko způsobí maximální zranění"
+    },
+    "flags.midi-qol.grants.max.damage.rsak": {
+      "name": "Zajistí maximální zranění (Útok kouzlem na dálku)",
+      "description": "Všechny útoky kouzlem na dálku způsobí maximální zranění"
+    },
+    "flags.midi-qol.grants.max.damage.rwak": {
+      "name": "Zajistí maximální zranění (Útok zbraní na dálku)",
+      "description": "Všechny útoky zbraní na dálku způsobí maximální zranění"
+    },
+    "flags.midi-qol.grants.max.damage.save": {
+      "name": "Zajistí maximální zranění (Záchranný hod)",
+      "description": "Všechny záchranné aktivity způsobí maximální zranění"
+    },
+    "flags.midi-qol.grants.min.damage.all": {
+      "name": "Zajistí minimální zranění (Vše)",
+      "description": "Všechny hody na zásah způsobí minimální zranění"
+    },
+    "flags.midi-qol.grants.min.damage.heal": {
+      "name": "Zajistí minimální zranění (Léčení)",
+      "description": "Všechny hody na léčení způsobí minimální léčení"
+    },
+    "flags.midi-qol.grants.min.damage.msak": {
+      "name": "Zajistí minimální zranění (Útok kouzlem na blízko)",
+      "description": "Všechny útoky kouzlem na blízko způsobí minimální zranění"
+    },
+    "flags.midi-qol.grants.min.damage.mwak": {
+      "name": "Zajistí minimální zranění (Útok zbraní na blízko)",
+      "description": "Všechny útoky zbraní na blízko způsobí minimální zranění"
+    },
+    "flags.midi-qol.grants.min.damage.other": {
+      "name": "Zajistí minimální zranění (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.rsak": {
+      "name": "Zajistí minimální zranění (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.rwak": {
+      "name": "Zajistí minimální zranění (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.save": {
+      "name": "Zajistí minimální zranění (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.util": {
+      "name": "Zajistí minimální zranění (Pomocná aktivita",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.all": {
+      "name": "Znemožní kritický zásah (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.heal": {
+      "name": "Znemožní kritický zásah (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.msak": {
+      "name": "Znemožní kritický zásah (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.mwak": {
+      "name": "Znemožní kritický zásah (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.other": {
+      "name": "Znemožní kritický zásah (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.rsak": {
+      "name": "Znemožní kritický zásah (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.rwak": {
+      "name": "Znemožní kritický zásah (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.save": {
+      "name": "Znemožní kritický zásah (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.util": {
+      "name": "Znemožní kritický zásah (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.ignoreNearbyFoes": {
+      "name": "Ignoruje blízké nepřátele",
+      "description": "Ignoruje Nevýhodu způsobenou blízkými nepřáteli při útocích na dálku."
+    },
+    "flags.midi-qol.inMotion": {
+      "name": "V pohybu",
+      "description": ""
+    },
+    "flags.midi-qol.long.all": {
+      "name": "Dlouhý dostřel (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.long.heal": {
+      "name": "Dlouhý dostřel (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.long.msak": {
+      "name": "Dlouhý dostřel (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.long.mwak": {
+      "name": "Dlouhý dostřel (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.long.other": {
+      "name": "Dlouhý dostřel (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.long.rsak": {
+      "name": "Dlouhý dostřel (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.long.rwak": {
+      "name": "Dlouhý dostřel (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.long.save": {
+      "name": "Dlouhý dostřel (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.long.util": {
+      "name": "Dlouhý dostřel (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.all": {
+      "name": "Odolání proti magii (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.cha": {
+      "name": "Odolání proti magii (Charisma)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.check.all": {
+      "name": "Odolání proti magii (Ověření)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.con": {
+      "name": "Odolání proti magii (Odolnost)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.dex": {
+      "name": "Odolání proti magii (Obratnost)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.int": {
+      "name": "Odolání proti magii (Inteligence)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.save.all": {
+      "name": "Odolání proti magii (Záchranné hody)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.skill.all": {
+      "name": "Odolání proti magii (Dovednosti)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.str": {
+      "name": "Odolání proti magii (Síla)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.wis": {
+      "name": "Odolání proti magii (Moudrost)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all": {
+      "name": "Zranitelnost vůči magii (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.cha": {
+      "name": "Zranitelnost vůči magii (Charisma)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.con": {
+      "name": "Zranitelnost vůči magii (Odolnost)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.dex": {
+      "name": "Zranitelnost vůči magii (Obratnost)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.int": {
+      "name": "Zranitelnost vůči magii (Inteligence)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.str": {
+      "name": "Zranitelnost vůči magii (Síla)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.wis": {
+      "name": "Zranitelnost vůči magii (Moudrost)",
+      "description": ""
+    },
+    "flags.midi-qol.max.ability.check.all": {
+      "name": "Maximální ověření vlastnosti (Vše)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro všechna ověření vlastností."
+    },
+    "flags.midi-qol.max.ability.check.cha": {
+      "name": "Maximální ověření vlastnosti (Charisma)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro všechna ověření Charismatu."
+    },
+    "flags.midi-qol.max.ability.check.con": {
+      "name": "Maximální ověření vlastnosti (Odolnost)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Odolnosti."
+    },
+    "flags.midi-qol.max.ability.check.dex": {
+      "name": "Maximální ověření vlastnosti (Obratnost)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Obratnosti."
+    },
+    "flags.midi-qol.max.ability.check.int": {
+      "name": "Maximální ověření vlastnosti (Inteligence)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Inteligence."
+    },
+    "flags.midi-qol.max.ability.check.str": {
+      "name": "Maximální ověření vlastnosti (Síla)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Síly."
+    },
+    "flags.midi-qol.max.ability.check.wis": {
+      "name": "Maximální ověření vlastnosti (Moudrost)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro ověření Moudrosti."
+    },
+    "flags.midi-qol.max.ability.save.all": {
+      "name": "Maximální záchranný hod (Vše)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro všechny záchranné hody."
+    },
+    "flags.midi-qol.max.ability.save.cha": { 
+      "name": "Maximální záchranný hod (Charisma)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Charismatem."
+    },
+    "flags.midi-qol.max.ability.save.con": { 
+      "name": "Maximální záchranný hod (Odolnost)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Odolností."
+    },
+    "flags.midi-qol.max.ability.save.concentration": { 
+      "name": "Maximální soustředění",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody na soustředění."
+    },
+    "flags.midi-qol.max.ability.save.dex": {
+      "name": "Maximální záchranný hod (Obratnost)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Obratností."
+    },
+    "flags.midi-qol.max.ability.save.int": {
+      "name": "Maximální záchranný hod (Inteligence)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Inteligencí."
+    },
+    "flags.midi-qol.max.ability.save.str": {
+      "name": "Maximální záchranný hod (Síla)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Silou."
+    },
+    "flags.midi-qol.max.ability.save.wis": {
+      "name": "Maximální záchranný hod (Moudrost)",
+      "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Moudrostí."
+    },
+    "flags.midi-qol.max.damage.all": { 
+      "name": "Maximální zranění (Vše)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.heal": {
+      "name": "Maximální zranění (Léčení)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.msak": {
+      "name": "Maximální zranění (Útok kouzlem na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.mwak": {
+      "name": "Maximální zranění (Útok zbraní na blízko)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.other": {
+      "name": "Maximální zranění (Ostatní)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.rsak": {
+      "name": "Maximální zranění (Útok kouzlem na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.rwak": {
+      "name": "Maximální zranění (Útok zbraní na dálku)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.save": {
+      "name": "Maximální zranění (Záchranný hod)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.util": {
+      "name": "Maximální zranění (Pomocná aktivita)",
+      "description": ""
+    },
+    "flags.midi-qol.max.skill.all": {
+      "name": "Maximální dovednost (Vše)",
+      "description": "Maximální hoditelné číslo na hlavní k20 pro všechna ověření dovedností."
+    },
+    "flags.midi-qol.min.ability.check.all": {
+      "name": "Minimální ověření vlastností (Vše)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro všechna ověření schopností."
+    },
+    "flags.midi-qol.min.ability.check.cha": {
+      "name": "Minimální ověření vlastnosti (Charisma)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Charisma."
+    },
+    "flags.midi-qol.min.ability.check.con": {
+      "name": "Minimální ověření vlastnosti (Odolnost)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Odolnost."
+    },
+    "flags.midi-qol.min.ability.check.dex": {
+      "name": "Minimální ověření vlastnosti (Obratnost)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Obratnost."
+    },
+    "flags.midi-qol.min.ability.check.int": {
+      "name": "Minimální ověření vlastnosti (Inteligence)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Inteligence."
+    },
+    "flags.midi-qol.min.ability.check.str": {
+      "name": "Minimální ověření vlastnosti (Síla)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Síla."
+    },
+    "flags.midi-qol.min.ability.check.wis": {
+      "name": "Minimální ověření vlastnosti (Moudrost)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro ověření vlastnosti Moudrost."
+    },
+    "flags.midi-qol.min.ability.save.all": {
+      "name": "Minimální záchranný hod (Vše)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro všechny záchranné hody."
+    },
+    "flags.midi-qol.min.ability.save.cha": {
+      "name": "Minimální záchranný hod (Charisma)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Charismatem."
+    },
+    "flags.midi-qol.min.ability.save.con": {
+      "name": "Minimální záchranný hod (Odolnost)",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Odolností."
+    },
+    "flags.midi-qol.min.ability.save.concentration": {
+      "name": "Minimální soustředění",
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody soustředění."
+    },
+    "flags.midi-qol.min.ability.save.dex": {
+      "name": "Minimální záchranný hod (Obratnost)", 
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Obratností."
+    },
+    "flags.midi-qol.min.ability.save.int": { 
+      "name": "Minimální záchranný hod (Inteligence)", 
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Inteligencí."
+    },
+    "flags.midi-qol.min.ability.save.str": { 
+      "name": "Minimální záchranný hod (Síla)", 
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Silou."
+    },
+    "flags.midi-qol.min.ability.save.wis": { 
+      "name": "Minimální záchranný hod (Moudrost)", 
+      "description": "Minimální hoditelné číslo na hlavní k20 pro záchranné hody Moudrostí."
+    },
+    "flags.midi-qol.min.damage.all": { 
+      "name": "Minimální zranění (Vše)", 
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.heal": { 
+      "name": "Minimální zranění (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.msak": { 
+      "name": "Minimální zranění (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.mwak": { 
+      "name": "Minimální zranění (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.other": { 
+      "name": "Minimální zranění (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.rsak": { 
+      "name": "Minimální zranění (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.rwak": { 
+      "name": "Minimální zranění (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.save": { 
+      "name": "Minimální zranění (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.min.damage.util": { 
+      "name": "Minimální zranění (Pomocná aktivita)", 
+      "description": "" 
+    },
+    "flags.midi-qol.neverTarget": { 
+      "name": "Nikdy necílit", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.all": { 
+      "name": "Znemožní kritický zásah (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.heal": { 
+      "name": "Znemožní kritický zásah (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.msak": { 
+      "name": "Znemožní kritický zásah (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.mwak": { 
+      "name": "Znemožní kritický zásah (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.other": { 
+      "name": "Znemožní kritický zásah (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.rsak": { 
+      "name": "Znemožní kritický zásah (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.rwak": { 
+      "name": "Znemožní kritický zásah (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.save": { 
+      "name": "Znemožní kritický zásah (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.noCritical.util": { 
+      "name": "Znemožní kritický zásah (Pomocná aktivita)", 
+      "description": "" 
+    },
+    "flags.midi-qol.onUseMacroName": { 
+      "name": "",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.macroToCall": { 
+      "name": "",
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.ac": { 
+      "name": "Volitelné OČ", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.activation": { 
+      "name": "Volitelná aktivace", 
+      "description": "Podmínka aktivace volitelného bonusu." 
+    },
+    "flags.midi-qol.optional.NAME.attack.all": { 
+      "name": "Volitelný bonus k útoku (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.all": { 
+      "name": "Volitelné selhání útoku (Vše)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.heal": { 
+      "name": "Volitelné selhání útoku (Léčení)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.msak": { 
+      "name": "Volitelné selhání útoku (Útok kouzlem na blízko)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.mwak": { 
+      "name": "Volitelné selhání útoku (Útok zbraní na blízko)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.other": { 
+      "name": "Volitelné selhání útoku (Ostatní)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.rsak": { 
+      "name": "Volitelné selhání útoku (Útok kouzlem na dálku)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.rwak": { 
+      "name": "Volitelné selhání útoku (Útok zbraní na dálku)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.save": { 
+      "name": "Volitelné selhání útoku (Záchranný hod)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.util": { 
+      "name": "Volitelné selhání útoku (Pomocná aktivita)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.attack.heal": { 
+      "name": "Volitelný bonus k útoku (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.msak": { 
+      "name": "Volitelný bonus k útoku (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.mwak": { 
+      "name": "Volitelný bonus k útoku (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.other": { 
+      "name": "Volitelný bonus k útoku (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.rsak": { 
+      "name": "Volitelný bonus k útoku (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.rwak": { 
+      "name": "Volitelný bonus k útoku (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.save": { 
+      "name": "Volitelný bonus k útoku (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.attack.util": { 
+      "name": "Volitelný bonus k útoku (Pomocná aktivita)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.all": { 
+      "name": "Volitelný bonus k ověření (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.cha": { 
+      "name": "Volitelný bonus k ověření (Charisma)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.con": { 
+      "name": "Volitelný bonus k ověření (Odolnost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.dex": { 
+      "name": "Volitelný bonus k ověření (Obratnost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.all": { 
+      "name": "Volitelné selhání ověření (Vše)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.cha": { 
+      "name": "Volitelné selhání ověření (Charisma)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.con": { 
+      "name": "Volitelné selhání ověření (Odolnost)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.dex": { 
+      "name": "Volitelné selhání ověření (Obratnost)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.int": { 
+      "name": "Volitelné selhání ověření (Inteligence)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.str": { 
+      "name": "Volitelné selhání ověření (Síla)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.fail.wis": { 
+      "name": "Volitelné selhání ověření (Moudrost)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.check.int": { 
+      "name": "Volitelný bonus k ověření (Inteligence)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.str": { 
+      "name": "Volitelný bonus k ověření (Síla)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.check.wis": { 
+      "name": "Volitelný bonus k ověření (Moudrost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.count": { 
+      "name": "Volitelný počet", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.countAlt": { 
+      "name": "Alternativní volitelný počet", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.criticalDamage": { 
+      "name": "Volitelný kritický zásah", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.all": { 
+      "name": "Volitelné zranění (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.heal": { 
+      "name": "Volitelné zranění (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.msak": { 
+      "name": "Volitelné zranění (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.mwak": { 
+      "name": "Volitelné zranění (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.other": { 
+      "name": "Volitelné zranění (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.rsak": { 
+      "name": "Volitelné zranění (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.rwak": { 
+      "name": "Volitelné zranění (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.save": { 
+      "name": "Volitelné zranění (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.damage.util": { 
+      "name": "Volitelné zranění (Pomocná aktivita)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.force": { 
+      "name": "Volitelná síla", 
+      "description": "Podmínka pro vynucenou aktivaci bonusu." 
+    },
+    "flags.midi-qol.optional.NAME.label": { 
+      "name": "Volitelný popisek", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.all": { 
+      "name": "Volitelný bonus k záchrannému hodu (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.cha": { 
+      "name": "Volitelný bonus k záchrannému hodu (Charisma)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.con": { 
+      "name": "Volitelný bonus k záchrannému hodu (Odolnost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.dex": { 
+      "name": "Volitelný bonus k záchrannému hodu (Obratnost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.all": { 
+      "name": "Volitelné selhání záchranného hodu (Vše)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.cha": { 
+      "name": "Volitelné selhání záchranného hodu (Charisma)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.con": { 
+      "name": "Volitelné selhání záchranného hodu (Odolnost)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.dex": { 
+      "name": "Volitelné selhání záchranného hodu (Obratnost)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.int": { 
+      "name": "Volitelné selhání záchranného hodu (Inteligence)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.str": { 
+      "name": "Volitelné selhání záchranného hodu (Síla)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.fail.wis": { 
+      "name": "Volitelné selhání záchranného hodu (Moudrost)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.save.int": { 
+      "name": "Volitelný bonus k záchrannému hodu (Inteligence)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.str": { 
+      "name": "Volitelný bonus k záchrannému hodu (Síla)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.save.wis": { 
+      "name": "Volitelný bonus k záchrannému hodu (Moudrost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.acr": { 
+      "name": "Volitelný bonus k dovednosti (Akrobacie)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.all": { 
+      "name": "Volitelný bonus k dovednosti (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.ani": { 
+      "name": "Volitelný bonus k dovednosti (Ovládání zvířat)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.arc": { 
+      "name": "Volitelný bonus k dovednosti (Mystika)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.ath": { 
+      "name": "Volitelný bonus k dovednosti (Atletika)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.fail.all": { 
+      "name": "Volitelné selhání dovednosti (Vše)", 
+      "description": "Zobrazí se pouze při selhání." 
+    },
+    "flags.midi-qol.optional.NAME.skill.his": { 
+      "name": "Volitelný bonus k dovednosti (Historie)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.ins": { 
+      "name": "Volitelný bonus k dovednosti (Vhled)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.inv": { 
+      "name": "Volitelný bonus k dovednosti (Pátrání)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.itm": { 
+      "name": "Volitelný bonus k dovednosti (Zastrašování)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.med": { 
+      "name": "Volitelný bonus k dovednosti (Lékařství)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.nat": { 
+      "name": "Volitelný bonus k dovednosti (Příroda)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.per": { 
+      "name": "Volitelný bonus k dovednosti (Přesvědčování)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.prc": { 
+      "name": "Volitelný bonus k dovednosti (Vnímání)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.prf": { 
+      "name": "Volitelný bonus k dovednosti (Umění)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.rel": { 
+      "name": "Volitelný bonus k dovednosti (Náboženství)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.slt": { 
+      "name": "Volitelný bonus k dovednosti (Čachry)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.ste": { 
+      "name": "Volitelný bonus k dovednosti (Nenápadnost)", 
+      "description": "" 
+    },
+    "flags.midi-qol.optional.NAME.skill.sur": { 
+      "name": "Volitelný bonus k dovednosti (Přežití)", 
+      "description": "" 
+    },
+    "flags.midi-qol.potentCantrip": { 
+      "name": "Mocný trik", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.all": { 
+      "name": "Dosah (Vše)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.heal": { 
+      "name": "Dosah (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.msak": { 
+      "name": "Dosah (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.mwak": { 
+      "name": "Dosah (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.other": { 
+      "name": "Dosah (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.rsak": { 
+      "name": "Dostřel (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.rwak": { 
+      "name": "Dostřel (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.save": { 
+      "name": "Dosah (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.range.util": { 
+      "name": "Dosah (Pomocná aktivita)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.all": { 
+      "name": "Přepsání dosahu (Všechny útoky)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.heal": { 
+      "name": "Přepsání dosahu (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.msak": { 
+      "name": "Přepsání dosahu (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.mwak": { 
+      "name": "Přepsání dosahu (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.other": { 
+      "name": "Přepsání dosahu (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.rsak": { 
+      "name": "Přepsání dostřelu (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.rwak": { 
+      "name": "Přepsání dostřelu (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.save": { 
+      "name": "Přepsání dosahu (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.rangeOverride.attack.util": { 
+      "name": "Přepsání dosahu (Užitkové)", 
+      "description": "" 
+    },
+    "flags.midi-qol.sculptSpells": {
+      "name": "Tvarování kouzel", 
+      "description": "Předem vybrané cíle kouzel se záchrsnou automaticky uspějí a získají status \"super-saver\"." 
+    },
+    "flags.midi-qol.semiSuperSaver.all": { 
+      "name": "Poloviční Super-saver (Vše)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.semiSuperSaver.cha": { 
+      "name": "Poloviční Super-saver (Charisma)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.semiSuperSaver.con": { 
+      "name": "Poloviční Super-saver (Odolnost)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.semiSuperSaver.dex": { 
+      "name": "Poloviční Super-saver (Obratnost)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.semiSuperSaver.int": { 
+      "name": "Poloviční Super-saver (Inteligence)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.semiSuperSaver.str": { 
+      "name": "Poloviční Super-saverr (Síla)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.semiSuperSaver.wis": { 
+      "name": "Poloviční Super-saver (Moudrost)", 
+      "description": "Při úspěšné záchraně žádné zranění." 
+    },
+    "flags.midi-qol.sharpShooter": { 
+      "name": "Ostrostřelec", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.all": { 
+      "name": "Úspěch (Všechny útoky)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.heal": { 
+      "name": "Úspěch (Léčení)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.msak": { 
+      "name": "Úspěch (Útok kouzlem na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.mwak": { 
+      "name": "Úspěch (Útok zbraní na blízko)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.other": { 
+      "name": "Úspěch (Ostatní)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.rsak": { 
+      "name": "Úspěch (Útok kouzlem na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.rwak": { 
+      "name": "Úspěch (Útok zbraní na dálku)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.save": { 
+      "name": "Úspěch (Záchranný hod)", 
+      "description": "" 
+    },
+    "flags.midi-qol.success.attack.util": { 
+      "name": "Úspěch (Pomocná aktivita)", 
+      "description": "" 
+    },
+    "flags.midi-qol.superSaver.all": { 
+      "name": "Super-saver (Vše)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.superSaver.cha": { 
+      "name": "Super-saver (Charisma)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.superSaver.con": { 
+      "name": "Super-saver (Odolnost)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.superSaver.dex": { 
+      "name": "Super-saver (Obratnost)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.superSaver.int": { 
+      "name": "Super-saver (Inteligence)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.superSaver.str": { 
+      "name": "Super-saver (Síla)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.superSaver.wis": { 
+      "name": "Super-saver (Moudrost)", 
+      "description": "Při úspěšné záchraně žádné zranění, při neúspěchu poloviční zranění." 
+    },
+    "flags.midi-qol.uncanny-dodge": { 
+      "name": "Neuvěřitelné uhýbání", 
+      "description": "" 
+    }
   }
 }
-
