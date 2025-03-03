@@ -745,19 +745,19 @@
   },
   "midi-qol.AddRow": "Přidat řádek",
   "midi-qol.CheckFlanking.Name": "Kontrola obklíčení",
-  "midi-qol.CheckFlanking.Hint": "Zkontroluje, zda ty a tví spojenci obkličujete protivníka. Buď poskytne útočníkovi Výhodu a/nebo aplikuje stav <strong>CE Obklíčení</strong> (modul Convenient Effect) útočníkovi, NEBO aplikuje stav CE Flanked na cíl.",
+  "midi-qol.CheckFlanking.Hint": "Zkontroluje, zda ty a tví spojenci obkličujete protivníka. Buď poskytne útočníkovi Výhodu a/nebo aplikuje stav <strong>CE obkličující(á)</strong> (modul Convenient Effect) útočníkovi, NEBO aplikuje stav CE obklíčený(á) na cíl.",
   "midi-qol.CheckFlankingOptions": {
     "off": "Vypnout",
     "advonly": "Pouze Výhoda",
-    "ceonly": "Pouze CE Obklíčení",
-    "midiFlanking": "Efekt Midi obklíčení",
-    "ceflanked": "CE Obklíčený",
-    "midiFlanked": "Efekt Midi obklíčený",
-    "ceflankedNoconga": "CE Obklíčený + žádné hadí linie",
-    "midiFlankedNoConga": "Midi Obklíčený + žádné hadí linie"
+    "ceonly": "Pouze CE obkličující",
+    "midiFlanking": "Efekt Midi obkličující",
+    "ceflanked": "CE obklíčený(á)",
+    "midiFlanked": "Efekt Midi obklíčený(á)",
+    "ceflankedNoconga": "CE obklíčený(á) + žádné hadí linie",
+    "midiFlankedNoConga": "Midi obklíčený(á) + žádné hadí linie"
   },
-  "midi-qol.Flanked": "Obklíčený",
-  "midi-qol.Flanking": "Obklíčení",
+  "midi-qol.Flanked": "Obklíčený(á)",
+  "midi-qol.Flanking": "Obklíčující",
   "midi-qol.RollAlternate.Name": "Přesunutí vzorce hodu do nápovědy",
   "midi-qol.RollAlternate.Hint": "Použije alternativní zobrazení hodu na sloučené kartě přesunutím vzorce hodu do nápovědy a volitelně přidá označení Výhody.",
   "midi-qol.RollAlternateOptions": {
@@ -974,8 +974,8 @@
         "hint": "Povolí použití stavu."
       },
       "effectConditionText": {
-        "label": "Stav aktivního efektu",
-        "hint": "Povolí aplikaci stavů aktivních efektů."
+        "label": "Aktivní efekty stavů",
+        "hint": "Povolí aplikaci aktivních efektů stavů."
       },
       "midiProperties": {
         "rollMode": {
