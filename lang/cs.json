@@ -184,7 +184,7 @@
     "none": "Nepovolit",
     "warn": "Varování",
     "debug": "Ladění",
-    "all": "Vše"
+    "all": "Povolit"
   },
   "midi-qol.speedItemRollsOptions": {
     "off": "Vypnout",
@@ -411,8 +411,8 @@
   "midi-qol.RemoveConcentrationEffects.Hint": "Zkontroluje poté, co jsou efekty (efekty a šablony) odstraněny. Pokud jsou odstraněny všechny efekty a šablony kouzla/schopnosti vyžadující soustředění, odstraní se soustředění.",
   "midi-qol.RemoveConcentrationEffectsOptions": {
     "none": "Nikdy",
-    "effects": "Zkontrolovat efekty",
-    "effectsTemplates": "Zkontrolovat efekty a šablony"
+    "effects": "Kontrolovat efekty",
+    "effectsTemplates": "Kontrolovat efekty a šablony"
   },
   "midi-qol.Config": {
     "Tabs": {
@@ -609,11 +609,11 @@
   "midi-qol.SpellDamage": "Zranění kouzlem",
   "midi-qol.NonSpellDamage": "Zranění bez kouzla",
   "midi-qol.ConditionHeader": "Podmínky aktivace",
-  "midi-qol.EffectActivationCondition.Name": "Efekty budou aplikovány, pokud je podmínka naplněná",
+  "midi-qol.EffectActivationCondition.Name": "Efekty budou aplikovány, pokud je podmínka naplněna",
   "midi-qol.EffectActivation": "Použít systémovou aktivaci pro aplikaci efektů (zastaralé)",
-  "midi-qol.ItemActivationCondition.Name": "Použití položky povoleno, pokud je podmínka naplněná",
-  "midi-qol.ReactionActivationCondition.Name": "Reakce bude spuštěna, pokud je podmínka naplněná",
-  "midi-qol.OtherActivationCondition.Name": "Další formule bude provedena, pokud je podmínka naplněná",
+  "midi-qol.ItemActivationCondition.Name": "Použití položky povoleno, pokud je podmínka naplněna",
+  "midi-qol.ReactionActivationCondition.Name": "Reakce bude spuštěna, pokud je podmínka naplněna",
+  "midi-qol.OtherActivationCondition.Name": "Další formule bude provedena, pokud je podmínka naplněna",
   "midi-qol.HPUpdated": "BV aktualizováno",
   "midi-qol.HPNPCUpdated": "BV NP aktualizováno",
   "midi-qol.HPNotUpdated": "BV neaktualizováno",
@@ -724,7 +724,7 @@
   "midi-qol.EnforceBonusActions.Hint": "Zobrazí výzvu při použití položek vyžadujících bonusovou akci, i pokud již byla bonusová akce v tomto kole použita.",
   "midi-qol.EnforceReactionsOptions": {
     "none": "Nekontrolovat",
-    "displayOnly": "Zobrazit ikonu stavu",
+    "displayOnly": "Zobrazit stavovou ikonu",
     "character": "Postavy: Výzva, pokud použito",
     "all": "Všichni aktéři: Výzva, pokud použito"
   },
@@ -924,10 +924,10 @@
   "midi-qol.CollapsibleTargets.Hint": "Zobrazí zasažené/nezasažené cíle v kartě chatu sbalené.",
   "midi-qol.AutoRemoveInstantaneousTemplate.Name": "Automatické odstranění okamžitých šablon",
   "midi-qol.AutoRemoveInstantaneousTemplate.Hint": "Šablony umístěné položkou s okamžitým trváním budou odstraněny na konci hodu položky",
-  "midi-qol.ReplaceDefaultActivities.Name": "Nahrazení aktivit DndDe ekvivalenty Midi-QoL",
-  "midi-qol.ReplaceDefaultActivities.Hint": "Jakékoliv existující aktivity, Útok, Zranění, Záchrana, Ověření, Pomocná aktivita budou místo toho používat Midi verze. Je to nutné pro automatizaci položek SRD, jinak budeš muset každou položku pro automatizaci Midi nastavovat ručně.",
-  "midi-qol.AutoMergeActivityOther.Name": "Automaticky sloučit jinou aktivitu pro Midi aktivity útoku (Změna vyžaduje restart)",
-  "midi-qol.AutoMergeActivityOther.Hint": "Pokud má položka pouze aktivitu útoku a jedno Zranění, Záchranu, Ověření, nebo Pomocnou aktivitu, bude sloučena s aktivitou útoku",
+  "midi-qol.ReplaceDefaultActivities.Name": "Nahrazení aktivit DnD5E ekvivalenty Midi-QoL",
+  "midi-qol.ReplaceDefaultActivities.Hint": "Jakékoliv existující aktivity (Útok, Zranění, Záchrana, Ověření, Pomocná aktivita) budou místo toho používat Midi verze. Je to nutné pro automatizaci položek SRD, jinak budeš muset každou položku pro automatizaci Midi nastavovat ručně.",
+  "midi-qol.AutoMergeActivityOther.Name": "Automaticky sloučit jinou aktivitu s Midi aktivitou ´útok´ (Změna vyžaduje restart)",
+  "midi-qol.AutoMergeActivityOther.Hint": "Pokud má položka pouze aktivitu ´útok´ a jedno zranění, záchranu, ověření, nebo pomocnou aktivitu, bude sloučena s aktivitou útoku",
   "midi-qol.ConfirmAmmunition.Name": "Potvrzení výběru munice při hodu na útok - zobrazí nastavení hodu na útok",
   "midi-qol.ActivityNamePrefix.Name": "Předpona aktivity",
   "midi-qol.ActivityNamePrefix.Hint": "Předpona názvu Midi-QoL aktivit s Midi. Změna vyžaduje restart",
@@ -963,19 +963,23 @@
   },
   "midi-qol.SHARED": {
     "use-condition": {
-      "header": "Midi stavy"
+      "header": "Midi podmínky"
     },
     "ignore": {
       "header": "Ignorovat rysy zranění"
     },
     "FIELDS": {
       "useConditionText": {
-        "label": "Použítí stavu",
-        "hint": "Povolí použití stavu."
+        "label": "Použítí podmínek",
+        "hint": "Povolí používání podmínek."
+      },
+      "useConditionReason": {
+        "label": "Důvod nenaplněné podmínky",
+        "hint": "Zpráva, která se zobrazí, pokud použitá podmínka není splněna."
       },
       "effectConditionText": {
-        "label": "Aktivní efekty stavů",
-        "hint": "Povolí aplikaci aktivních efektů stavů."
+        "label": "Podmínka aktivního efektu",
+        "hint": "Podmínka aplikace aktivního efektu."
       },
       "midiProperties": {
         "rollMode": {
@@ -1185,11 +1189,11 @@
       },
       "removeConditionBeforeActivity": {
         "label": "Odstranění efektu před hodem",
-        "hint": "Pokud je splněn stav pro odstranění, efekt bude odstraněn před hodem na aktivitu"
+        "hint": "Pokud je splněna podmínka odstranění, efekt bude odstraněn před hodem na aktivitu"
       },
       "removeConditionText": {
-        "label": "Odstranění stavu",
-        "hint": "Stav pro odstranění efektu"
+        "label": "Podmínka odstranění",
+        "hint": "Podmínka odstranění efektu"
       }
     }
   },
@@ -1212,9 +1216,9 @@
     }
   },
   "midi-qol.fields": {
-    "use-condition-header": "Midi aktivita smí použít stav",
+    "use-condition-header": "Midi aktivita smí používat podmínky",
     "attack-extras": "Pole útoku Midi",
-    "effects-conditon": "Stav aplikovaný efektem Midi",
+    "effects-conditon": "Podmínka aplikace efektu Midi",
     "force-dialog": "Vynutit dialog nastavení",
     "midi-automation-only": "Pouze pro použití v Midi automatizaci"
   },
@@ -2704,7 +2708,7 @@
       "description": ""
     },
     "flags.midi-qol.ignoreNearbyFoes": {
-      "name": "Ignoruje blízké nepřátele",
+      "name": "Ignorování blízkých nepřátel",
       "description": "Ignoruje Nevýhodu způsobenou blízkými nepřáteli při útocích na dálku."
     },
     "flags.midi-qol.inMotion": {
