@@ -550,7 +550,7 @@
   "midi-qol.ActiveDefence.Hint": "Místo toho, aby PJ házel na útok, tak hráči ´hází na obranu´.",
   "midi-qol.ActiveDefenceShow.Name": "Výchozí zobrazení hodů na aktivní obranu",
   "midi-qol.ActiveDefenceShow.Hint": "Pokud je nastaven 'Hod pro sebe', hod bude skryt PJ bez ohledu na další nastavení.",
-  "midi-qol.GMHide3dDice.Name": "Skrývat 3D hody na útok/zásah/záchranu PJ? (Přepisuje to další nastavení, ale pouze u sloučených karet.)",
+  "midi-qol.GMHide3dDice.Name": "Skrývat 3D hody na útok/zásah/záchranu PJ? (Přepisuje to další nastavení pouze u sloučených karet.)",
   "midi-qol.GhostRolls.Name": "Zobrazovat hody na útok/zásah pomocí 'DiceSoNice ghost rolls' místo jejich skrývání? (Pouze u sloučených karet.)",
   "midi-qol.convenientEffectsOn": "Použít Convenient Effect",
   "midi-qol.convenientEffectsOff": "Nepoužít Convenient Effect",
@@ -593,7 +593,7 @@
   "midi-qol.reactionManual": "Manuální",
   "midi-qol.reactionPreAttack": "Před hodem na útok",
   "midi-qol.ddbGL.Name": "Povolit podporu ddb-game-log?",
-  "midi-qol.ddbGL.Hint": "Po zaškrtnutí bude akceptovat útoky/zásahy/záchranné hody z ddb-game-log ke spuštění pracovního procesu Midi ve Foundry.",
+  "midi-qol.ddbGL.Hint": "Po zaškrtnutí budou akceptovány útoky/zásahy/záchranné hody z ddb-game-log ke spuštění pracovního procesu Midi ve Foundry.",
   "midi-qol.ShowReactionChatMessage.Name": "Zobrazovat výzvy reakce v chatu?",
   "midi-qol.reactionFlavorHit": "{actorName} je zasažen {itemName} a může použít reakci",
   "midi-qol.reactionFlavorTargeted": "{actorName} je cílen {itemName} a může použít reakci",
@@ -951,7 +951,7 @@
       "header": "Midi podmínky"
     },
     "ignore": {
-      "header": "Ignorovat parametry zranění"
+      "header": "Ignorace parametrů zranění"
     },
     "FIELDS": {
       "useConditionText": {
@@ -976,20 +976,20 @@
           "hint": "Režim hodu, který se má použít pro tuto aktivitu"
         },
         "removeChatButtons": {
-          "label": "Režim hodu",
-          "hint": "Jaký režim hodu má aktivita použít."
+          "label": "Odstranění tlačítek v chatu",
+          "hint": "Jaká tlačítka odstraňovat z karty aktivity v chatu."
         },
         "ignoreFullCover": {
-          "label": "Ignorování plného krytu",
-          "hint": "Při aplikaci zranění/záchran bude ignorován plný kryt."
+          "label": "Ignorace plného krytu?",
+          "hint": "Po zaškrtnutí bude při aplikaci zranění/záchran ignorován plný kryt."
         },
         "chooseEffects": {
-          "label": "Výběr efektů",
-          "hint": "Výběr efektů k aplikaci."
+          "label": "Výběr efektů?",
+          "hint": "Po zaškrtnutí se budou vybírat efekty k aplikaci."
         },
         "forceDialog": {
-          "label": "Vynucení dialogu nastavení",
-          "hint": "Vynutí dialog nastavení při hodu na útok."
+          "label": "Vynucovat dialog nastavení?",
+          "hint": "Po zaškrtnutí bude vynucovat dialog nastavení při hodu na útok."
         },
         "confirmTargets": {
           "label": "Potvrzení cíle",
@@ -1004,12 +1004,12 @@
           "hint": "Při umístění šablony (např. kouzla) cílit na tokeny uvnitř šablony. Pokud je v cílení na dálku astavena možnost 'Střed + úrovně', budou použity objemové šablony modulu Levels (pokud jsou nainstalovány)."
         },
         "automationOnly": {
-          "label": "Pouze automatizace",
-          "hint": "Aktivita je určena pouze pro automatizaci Midi, nikoli pro manuální použití."
+          "label": "Pouze automatizace!",
+          "hint": "Aktivita je určena pouze pro automatizaci Midi, nikoli pro manuální používání."
         },
         "displayActivityName": {
-          "label": "Zobrazení názvu aktivity",
-          "hint": "Zobrazí název aktivity v kartě chatu."
+          "label": "Zobrazovat název aktivity?",
+          "hint": "Po zaškrtnutí bude zobrazovat název aktivity v kartě chatu."
         },
         "identifier": {
           "label": "Identifikátor",
@@ -1044,12 +1044,12 @@
           "hint": "Záchranné hody proti této aktivitě se počítají jako proti magii."
         },
         "magicDamage": {
-          "label": "Magické zranění",
-          "hint": "Zranění z této aktivity se počítá jako magické."
+          "label": "Magické zranění?",
+          "hint": "Po zaškrtnutí bude zranění této aktivity vyhodnocováno jako magické."
         },
         "noConcentrationCheck": {
-          "label": "Bez záchrany soustředění",
-          "hint": "Zranění z této aktivity nespouští hod na záchranu soustředění."
+          "label": "Nevynucovat záchranu soustředění?",
+          "hint": "Zranění touto aktivitou nebude spouštět hod na záchranu soustředění."
         },
         "ignoreTraits": {
           "idi": {
@@ -1079,8 +1079,8 @@
         }
       },  
       "isOverTimeFlag": {
-        "label": "Prodlužovaná aktivita",
-        "hint": "Aktivita může být prodlužována."
+        "label": "Prodlužovaná aktivita?",
+        "hint": "Po zaškrtnutí může být tato aktivita prodlužována."
       },
       "overTimeProperties": {
          "turnChoice": {
