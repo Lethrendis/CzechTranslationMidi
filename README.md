@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro Midi-QoL verze 12.4.48. Obsahuje p�
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://raw.githubusercontent.com/Lethrendis/CzechTranslationMidi/main/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationMidi/Core12/module.json
 ```
 
 ## Autor
