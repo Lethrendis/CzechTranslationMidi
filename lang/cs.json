@@ -1291,7 +1291,7 @@
   "midi-qol.NoAmmunition": "Ve tvém inventáři není žádná munice typu {name}",
   "midi-qol.NoAmmunitionAvailable": "Ve tvém inventáři není žádná munice.",
   "midi-qol.NoAmmunitionSelected": "Musíš vybrat, jakou munici používat.",
-  "midi-qol.TwoHandedShieldWarning": "Pokud je aktér vybaven štítem, takn nelze používat obouruční zbraň ani útok druhou rukou",
+  "midi-qol.TwoHandedShieldWarning": "Pokud je aktér vybaven štítem, pak nelze používat obouruční zbraň ani útok druhou rukou",
 "dae.MidiQOL.fieldData": {
     "flags.midi-qol.absorption.acid": { 
       "name": "Absorpce kyseliny", 
