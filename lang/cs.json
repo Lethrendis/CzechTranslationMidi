@@ -1482,7 +1482,7 @@
       "description": "Nevýhoda k Nenápadnosti kvůli těžké zbroji."
     },
     "flags.midi-qol.": {
-      "name": "MIDI-QoL Příznaky",
+      "name": "Příznaky MIDI-QoL",
       "description": ""
     },
     "flags.midi-qol.DR.msak": {
