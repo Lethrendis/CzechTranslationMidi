@@ -1910,7 +1910,7 @@
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.inv": {
-      "name": "Nevýhoda (Vyšetřování)",
+      "name": "Nevýhoda (Pátrání)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.itm": {
@@ -2122,7 +2122,7 @@
       "description": ""
     },
     "flags.midi-qol.fail.skill.inv": {
-      "name": "Selhání (Vyšetřování)",
+      "name": "Selhání (Pátrání)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.itm": {
