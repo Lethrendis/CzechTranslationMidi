@@ -93,12 +93,12 @@
   "midi-qol.RangeTarget.Name": "Automatizované cílení útoků/kouzel na dálku",
   "midi-qol.RangeTarget.Hint": "Automaticky zaměřuje cíle v dálce, pokud je typ cíle bytost/nepřítel/spojenec.",
   "midi-qol.PlayerRollSaves.Name": "Výzva hráčům k záchraně",
-  "midi-qol.PlayerRollSaves.Hint": "Když mají hráči hodit na záchranu. 'Nevyzývat' znamená, že Midi provede hod na záchranu. Jinak hráč obdrží šeptanou výzvu v chatu, případně pomocí Monk's Token baru.",
+  "midi-qol.PlayerRollSaves.Hint": "Když mají hráči hodit záchranu. 'Nevyzývat' znamená, že Midi záchranu sám hodí. Jinak hráč obdrží šeptanou výzvu v chatu, případně pomocí modulu Monk's Token Bar.",
   "midi-qol.rollNPCSaves.Name": "Výzva PJ k záchraně nepropojených aktérů",
   "midi-qol.rollNPCLinkedSaves.Name": "Výzva PJ k záchraně propojených aktérů",
-  "midi-qol.rollNPCSaves.Hint": "'Automaticky' znamená, že Midi provede hod na záchranu za aktéra. Jinak bude PJ vyzván podle nastavení.",
+  "midi-qol.rollNPCSaves.Hint": "'Automaticky' znamená, že Midi hodí záchranu za aktéra. Jinak bude PJ vyzván podle nastavení.",
   "midi-qol.PlayerSaveTimeout.Name": "Časový limit hodu hráče",
-  "midi-qol.PlayerSaveTimeout.Hint": "Jak dlouho (v sekundách) čekat, než bude hod na záchranu proveden za hráče.",
+  "midi-qol.PlayerSaveTimeout.Hint": "Jak dlouho (v sekundách) čekat, než bude záchrana hozena za hráče.",
   "midi-qol.MagicResistant": "odolání vůči magii",
   "midi-qol.MagicResistanceFeat": "Odolání vůči magii",
   "midi-qol.PreRollChecks.Name": "Experimentální: Kontroly před rychlým/makro hodem",
@@ -138,9 +138,9 @@
   "midi-qol.Save": "Uložit nastavení",
   "midi-qol.saving-throws": "Záchranné hody",
   "midi-qol.saving-throw": "Záchranný hod",
-  "midi-qol.ability-check": "Hod na vlastnost",
-  "midi-qol.ability-checks": "Hody na vlastnosti",
-  "midi-qol.skill-check": "Hod na dovednost",
+  "midi-qol.ability-check": "Ověření vlastnosti",
+  "midi-qol.ability-checks": "Ověření vlastností",
+  "midi-qol.skill-check": "Ověření dovednosti",
   "midi-qol.noAttackRoll": "Musíš hodit na útok před hodem na zásah",
   "midi-qol.config": "Nastavení Midi QoL",
   "midi-qol.Hint": "Nastaví různá nastavení pracovního procesu Midi-QoL. Upozornění: je jich hodně.",
@@ -523,9 +523,9 @@
     "none": "Nevynucovat",
     "chatOnly": "Stačí zpráva do chatu (výchozí chování DnD5e)",
     "chat": "Zpráva v chatu + automatizovaný hod",
-    "item": "Hod na soustředění položky"
+    "item": "Záchrana soustředění položky"
   },
-  "midi-qol.DoConcentrationCheck.Hint": "<strong>Pouze zpráva v chatu</strong> zobrazí zprávu v chatu s tlačítkem (výchozí chování DnD5e a vyžaduje DnD5e soustředění)<br><strong>Zpráva v chatu + automatizovaný hod</strong> zobrazí zprávu v chatu a automaticky provede hod (vyžaduje DnD5e soustředění)<br><strong>Hod na soustředění přes položku</strong> provede hod na soustředění pomocí položky (standardní chování Midi).",
+  "midi-qol.DoConcentrationCheck.Hint": "<strong>Pouze zpráva v chatu</strong> zobrazí zprávu v chatu s tlačítkem (výchozí chování DnD5e a vyžaduje DnD5e soustředění)<br><strong>Zpráva v chatu + automatizovaný hod</strong> zobrazí zprávu v chatu a automaticky provede hod (vyžaduje DnD5e soustředění)<br><strong>Záchrana soustředění přes položku</strong> hodí na záchranu soustředění pomocí položky (standardní chování Midi).",
   "midi-qol.RemoveConcentration.Name": "Má být soustředění po selhání v záchranném hodu odstraněno?",
   "midi-qol.UsePlayerPortrait.Name": "Má být v kartách chatu používán portrét aktéra?",
   "midi-qol.UsePlayerPortrait.Hint": "Pro aktéry typu postava bude v kartách chatu Midi-QoL používat namísto obrázku tokenu portrét aktéra.",
@@ -792,7 +792,7 @@
     "GMOnly": "Pracovní proces může vrátit pouze PJ"
   },
   "midi-qol.cubNotSupported": "Combat Utility Belt nebude migrován na verzi 11. Midi odstraní podporu CUB ve verzi midi 11.1.0",
-  "midi-qol.ContestedRoll": "Hod na konflikt",
+  "midi-qol.ContestedRoll": "Ověření konfliktu",
   "midi-qol.versus": "proti",
   "midi-qol.Skipped": "Přeskočeno",
   "midi-qol.ExportTroubleShooting": "Exportovat data pro řešení problémů",
@@ -1054,7 +1054,7 @@
         },
         "noConcentrationCheck": {
           "label": "Nevynucovat záchranu soustředění?",
-          "hint": "Zranění touto aktivitou nebude spouštět hod na záchranu soustředění."
+          "hint": "Zranění touto aktivitou nebude spouštět záchranu soustředění."
         },
         "ignoreTraits": {
           "idi": {
@@ -1256,7 +1256,7 @@
       "header": "Pole záchranných hodů Midi"
     },
     "FriendlySave": {
-      "Default": "Hod na záchranu",
+      "Default": "Záchrana",
       "FriendlySuccess": "Spojenci uspějí",
       "FriendlyFail": "Spojenci selžou"
     },
@@ -1367,27 +1367,27 @@
     },
     "flags.midi-qol.advantage.ability.check.cha": {
       "name": "Výhoda na Charisma",
-      "description": "Výhoda na hod na Charisma."
+      "description": "Výhoda na ověření Charismatem."
     },
     "flags.midi-qol.advantage.ability.check.con": {
       "name": "Výhoda na Odolnost",
-      "description": "Výhoda na hod na Odolnost."
+      "description": "Výhoda na ověření Odolnosti."
     },
     "flags.midi-qol.advantage.ability.check.dex": {
       "name": "Výhoda na Obratnost",
-      "description": "Výhoda na hod na Obratnost."
+      "description": "Výhoda na ověření Obratnosti."
     },
     "flags.midi-qol.advantage.ability.check.int": {
       "name": "Výhoda na Inteligenci",
-      "description": "Výhoda na hod na Inteligenci."
+      "description": "Výhoda na ověření Inteligence."
     },
     "flags.midi-qol.advantage.ability.check.str": {
       "name": "Výhoda na Sílu",
-      "description": "Výhoda na hod na Sílu."
+      "description": "Výhoda na ověření Síly."
     },
     "flags.midi-qol.advantage.ability.check.wis": {
       "name": "Výhoda na Moudrost",
-      "description": "Výhoda na hod na Moudrost."
+      "description": "Výhoda na ověření Moudrosti."
     },
     "flags.midi-qol.advantage.ability.save.all": {
       "name": "Výhoda na všechny záchrany",
@@ -2579,7 +2579,7 @@
     },
     "flags.midi-qol.grants.{noAdvantage.attack.skill": {
       "name": "Neposkytne Výhodu (Dovednost)",
-      "description": "Žádný hod na dovednost vynucený tímto aktérem nebude mít Výhodu"
+      "description": "Žádné ověření dovednosti vynucené tímto aktérem nebude mít Výhodu"
     },
     "flags.midi-qol.grants.fail.advantage.attack.msak": {
       "name": "Neposkytne Výhodu (Útok kouzlem na blízko)",
@@ -2606,7 +2606,7 @@
       "description": "Žádné ověření vynucené tímto aktérem nebude mít Výhodu"
     },
     "flags.midi-qol.grants.fail.advantage.attack.skill": {
-      "name": "Neposkytne Výhodu (Hod na dovednost)",
+      "name": "Neposkytne Výhodu (Ověření dovednosti)",
       "description": "Žádné ověření dovednosti vynucené tímto aktérem nebude mít Výhodu"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.all": {
