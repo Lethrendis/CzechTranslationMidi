@@ -41,7 +41,7 @@
 "midi-qol.AutoRollDamage.Name": "Používat automatizovaný hod na zásah?",
   "midi-qol.AutoRollDamage.Hint": "Po hodu na útok se bude automaticky házet na zásah. Pokud je zaškrtnuto automatizované házení na zásah, Midi hodí na zásah i když nejsou vybrány žádné cíle, útok zasáhne (viz automatická kontrola zásahů), nebo pokud zásahy nejsou kontrolovány.",
   "midi-qol.AutoCheckSaves.Name": "Automatizace záchranných hodů",
-  "midi-qol.AutoCheckSaves.Hint": "Když bude požadován záchranný hod, bude Midi automaticky ověřovat záchranné hody. Pokud je tato funkce zakázána, bude Midi předpokládat, že všechny cíle v záchraně selhaly.",
+  "midi-qol.AutoCheckSaves.Hint": "Když bude požadována záchrana, bude Midi automaticky ověřovat záchranné hody. Pokud je tato funkce zakázána, bude Midi předpokládat, že všechny cíle v záchraně selhaly.",
   "midi-qol.DisplaySaveDC.Name": "Má se zobrazovat stupeň obtížnosti záchran?",
   "midi-qol.DisplaySaveDC.Hint": "Pokud nebude zaškrtnuto, bude stupeň obtížnosti záchran hráčům skrýván (pouze u sloučených karet).",
   "midi-qol.AutoRemoveTargets.Name": "Zacílení tokenů na konci tahu",
@@ -1395,27 +1395,27 @@
     },
     "flags.midi-qol.advantage.ability.save.cha": {
       "name": "Výhoda na záchranu Charismatem",
-      "description": "Výhoda na záchranný hod Charismatem."
+      "description": "Výhoda na záchranu Charismatem."
     },
     "flags.midi-qol.advantage.ability.save.con": {
       "name": "Výhoda na záchranu Odolností",
-      "description": "Výhoda na záchranný hod Odolností."
+      "description": "Výhoda na záchranu Odolností."
     },
     "flags.midi-qol.advantage.ability.save.dex": {
       "name": "Výhoda na záchranu Obratností",
-      "description": "Výhoda na záchranný hod Obratností."
+      "description": "Výhoda na záchranu Obratností."
     },
     "flags.midi-qol.advantage.ability.save.int": {
       "name": "Výhoda na záchranu Inteligencí",
-      "description": "Výhoda na záchranný hod Inteligencí."
+      "description": "Výhoda na záchranu Inteligencí."
     },
     "flags.midi-qol.advantage.ability.save.str": {
       "name": "Výhoda na záchranu Silou",
-      "description": "Výhoda na záchranný hod Silou."
+      "description": "Výhoda na záchranu Silou."
     },
     "flags.midi-qol.advantage.ability.save.wis": {
       "name": "Výhoda na záchranu Moudrostí",
-      "description": "Výhoda na záchranný hod Moudrostí."
+      "description": "Výhoda na záchranu Moudrostí."
     },
     "flags.midi-qol.advantage.all": {
       "name": "Výhoda na vše",
@@ -1423,7 +1423,7 @@
     },
     "flags.midi-qol.advantage.attack.all": {
       "name": "Výhoda na všechny útoky",
-      "description": "Výhoda na všechny typy útoků (zbraněmi, kouzely i další)."
+      "description": "Výhoda na všechny typy útoků (zbraněmi, kouzly i jinými)."
     },
     "flags.midi-qol.advantage.attack.cha": {
       "name": "Výhoda na útoky Charismatem",
@@ -1530,7 +1530,7 @@
       "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
     },
     "flags.midi-qol.DR.save": {
-      "name": "Snížení zranění (záchranný hod) (Zastaralé)",
+      "name": "Snížení zranění (Záchranný hod) (Zastaralé)",
       "description": "Použij místo toho pole system.traits.dm (se zápornou hodnotou)."
     },
     "flags.midi-qol.DR.util": {
@@ -1623,7 +1623,7 @@
     },
     "flags.midi-qol.advantage.deathSave": {
       "name": "Výhoda (Záchrana před smrtí)",
-      "description": "Výhoda při záchranném hodu proti smrti."
+      "description": "Výhoda při záchraně před smrtí."
     },
     "flags.midi-qol.advantage.skill.acr": {
       "name": "Výhoda (Akrobacie)",
@@ -1786,31 +1786,31 @@
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.all": {
-      "name": "Nevýhoda (Všechny záchranné hody)",
+      "name": "Nevýhoda (Všechny záchrany)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.cha": {
-      "name": "Nevýhoda (Záchranný hod na Charisma)",
+      "name": "Nevýhoda (Záchrana Charismatem)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.con": {
-      "name": "Nevýhoda (Záchranný hod na Odolnost)",
+      "name": "Nevýhoda (Záchrana Odolností)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.dex": {
-      "name": "Nevýhoda (Záchranný hod na Obratnost)",
+      "name": "Nevýhoda (Záchrana Obratností)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.int": {
-      "name": "Nevýhoda (Záchranný hod na Inteligenci)",
+      "name": "Nevýhoda (Záchrana Inteligencí)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.str": {
-      "name": "Nevýhoda (Záchranný hod na Sílu)",
+      "name": "Nevýhoda (Záchrana Silou)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.wis": {
-      "name": "Nevýhoda (Záchranný hod na Moudrost)",
+      "name": "Nevýhoda (Záchrana Moudrostí)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.all": {
@@ -1878,7 +1878,7 @@
       "description": ""
     },
     "flags.midi-qol.disadvantage.deathSave": {
-      "name": "Nevýhoda (Záchrana proti smrti)",
+      "name": "Nevýhoda (Záchrana před smrtí)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.acr": {
@@ -1994,27 +1994,27 @@
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.cha": {
-      "name": "Selhání (Záchranný hod na Charisma)",
+      "name": "Selhání (Záchrana Charismatem)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.con": {
-      "name": "Selhání (Záchranný hod na Odolnost)",
+      "name": "Selhání (Záchrana Odolností)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.dex": {
-      "name": "Selhání (Záchranný hod na Obratnost)",
+      "name": "Selhání (Záchrana Obratností)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.int": {
-      "name": "Selhání (Záchranný hod na Inteligenci)",
+      "name": "Selhání (Záchrana Inteligencí)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.str": {
-      "name": "Selhání (Záchranný hod na Sílu)",
+      "name": "Selhání (Záchrana Silou)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.wis": {
-      "name": "Selhání (Záchranný hod na Moudrost)",
+      "name": "Selhání (Záchrana Moudrostí)",
       "description": ""
     },
     "flags.midi-qol.fail.all": {
@@ -2250,27 +2250,27 @@
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.cha": {
-      "name": "Zajistí Výhodu (Záchranný hod na Charisma)",
+      "name": "Zajistí Výhodu (Záchrana Charismatem)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.con": {
-      "name": "Zajistí Výhodu (Záchranný hod na Odolnost)",
+      "name": "Zajistí Výhodu (Záchrana Odolností)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.dex": {
-      "name": "Zajistí Výhodu (Záchranný hod na Obratnost)",
+      "name": "Zajistí Výhodu (Záchrana Obratností)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.int": {
-      "name": "Zajistí Výhodu (Záchranný hod na Inteligenci)",
+      "name": "Zajistí Výhodu (Záchrana Inteligencí)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.str": {
-      "name": "Zajistí Výhodu (Záchranný hod na Sílu)",
+      "name": "Zajistí Výhodu (Záchrana Silou)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.wis": {
-      "name": "Zajistí Výhodu (Záchranný hod na Moudrost)",
+      "name": "Zajistí Výhodu (Záchrana Moudrostí)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.all": {
@@ -2490,27 +2490,27 @@
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.cha": {
-      "name": "Zajistí Nevýhodu (Záchranný hod na Charisma)",
+      "name": "Zajistí Nevýhodu (Záchrana Charismatem)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.con": {
-      "name": "Zajistí Nevýhodu (Záchranný hod na Odolnost)",
+      "name": "Zajistí Nevýhodu (Záchrana Odolností)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.dex": {
-      "name": "Zajistí Nevýhodu (Záchranný hod na Obratnost)",
+      "name": "Zajistí Nevýhodu (Záchrana Obratností)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.int": {
-      "name": "Zajistí Nevýhodu (Záchranný hod na Inteligenci)",
+      "name": "Zajistí Nevýhodu (Záchrana Inteligencí)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.str": {
-      "name": "Zajistí Nevýhodu (Záchranný hod na Sílu)",
+      "name": "Zajistí Nevýhodu (Záchrana Silou)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.wis": {
-      "name": "Zajistí Nevýhodu (Záchranný hod na Moudrost)",
+      "name": "Zajistí Nevýhodu (Záchrana Moudrostí)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.all": { 
@@ -2926,7 +2926,7 @@
       "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody Odolností."
     },
     "flags.midi-qol.max.ability.save.concentration": { 
-      "name": "Maximální soustředění",
+      "name": "Maximální záchrana soustředění",
       "description": "Maximální hoditelná hodnota na hlavní k20 pro záchranné hody na soustředění."
     },
     "flags.midi-qol.max.ability.save.dex": {
@@ -3315,7 +3315,7 @@
     },
     "flags.midi-qol.optional.NAME.force": { 
       "name": "Volitelná síla", 
-      "description": "Podmínka pro vynucenou aktivaci bonusu." 
+      "description": "Podmínka vynucené aktivace bonusu." 
     },
     "flags.midi-qol.optional.NAME.label": { 
       "name": "Volitelný štítek", 
@@ -3534,31 +3534,31 @@
       "description": "Předem vybrané cíle kouzel se záchranou automaticky uspějí a získají stav \"super-saver\"." 
     },
     "flags.midi-qol.semiSuperSaver.all": { 
-      "name": "Poloviční Super Saver (Vše)", 
+      "name": "Poloviční super-záchrana (Vše)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.semiSuperSaver.cha": { 
-      "name": "Poloviční Super Saver (Charisma)", 
+      "name": "Poloviční super-záchrana (Charisma)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.semiSuperSaver.con": { 
-      "name": "Poloviční Super Saver (Odolnost)", 
+      "name": "Poloviční super-záchrana (Odolnost)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.semiSuperSaver.dex": { 
-      "name": "Poloviční Super Saver (Obratnost)", 
+      "name": "Poloviční super-záchrana (Obratnost)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.semiSuperSaver.int": { 
-      "name": "Poloviční Super Saver (Inteligence)", 
+      "name": "Poloviční super-záchrana (Inteligence)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.semiSuperSaver.str": { 
-      "name": "Poloviční Super Saver (Síla)", 
+      "name": "Poloviční super-záchrana (Síla)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.semiSuperSaver.wis": { 
-      "name": "Poloviční Super Saver (Moudrost)", 
+      "name": "Poloviční super-záchrana (Moudrost)", 
       "description": "Při úspěšné záchraně žádné zranění." 
     },
     "flags.midi-qol.sharpShooter": { 
@@ -3602,31 +3602,31 @@
       "description": "" 
     },
     "flags.midi-qol.superSaver.all": { 
-      "name": "Super Saver (Vše)", 
+      "name": "Super-záchrana (Vše)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.superSaver.cha": { 
-      "name": "Super Saver (Charisma)", 
+      "name": "Super-záchrana  (Charisma)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.superSaver.con": { 
-      "name": "Super Saver (Odolnost)", 
+      "name": "Super-záchrana  (Odolnost)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.superSaver.dex": { 
-      "name": "Super Saver (Obratnost)", 
+      "name": "Super-záchrana  (Obratnost)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.superSaver.int": { 
-      "name": "Super Saver (Inteligence)", 
+      "name": "Super-záchrana  (Inteligence)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.superSaver.str": { 
-      "name": "Super Saver (Síla)", 
+      "name": "Super-záchrana  (Síla)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.superSaver.wis": { 
-      "name": "Super Saver (Moudrost)", 
+      "name": "Super-záchrana  (Moudrost)", 
       "description": "Při úspěšné záchraně žádné zranění, při selhání poloviční zranění." 
     },
     "flags.midi-qol.uncanny-dodge": { 
